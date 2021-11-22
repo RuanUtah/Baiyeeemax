@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name Baiyeeemax)(type Legacy)(uri ${KIPRJMOD}/Baiyeeemax.lib)(options "")(descr ""))
+  (lib (name ACS712ELCTR-20A-T)(type Legacy)(uri /home/ruan/Kicad/ACS712ELCTR-20A-T/ACS712ELCTR-20A-T.lib)(options "")(descr ""))
+  (lib (name ARM_STM32F103C8T6-cache)(type Legacy)(uri /home/ruan/Kicad/STM32F103C8T6/ARM_STM32F103C8T6/ARM_STM32F103C8T6-cache.lib)(options "")(descr ""))
+)
