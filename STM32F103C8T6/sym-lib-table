@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name STM32F103C8T6_breakouts)(type Legacy)(uri ${KIPRJMOD}/STM32F103C8T6_breakouts.lib)(options "")(descr ""))
+  (lib (name blue_pill_STM32F103C)(type Legacy)(uri ${KIPRJMOD}/blue_pill_STM32F103C.lib)(options "")(descr ""))
+)
