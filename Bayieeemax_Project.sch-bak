@@ -14,113 +14,6 @@ Comment3 ""
 Comment4 "Author: Ruan Utah & Júlia Maria"
 $EndDescr
 $Comp
-L Bayieeemax_Project-rescue:XL4015-XL4015 VR?
-U 1 1 61931A63
-P 2050 12000
-F 0 "VR?" H 2050 12467 50  0000 C CNN
-F 1 "XL4015" H 2050 12376 50  0000 C CNN
-F 2 "CONV_XL4015" H 2150 11600 50  0001 L BNN
-F 3 "" H 2050 12000 50  0001 L BNN
-F 4 "1.5" H 2050 12000 50  0001 L BNN "PARTREV"
-F 5 "4.77mm" H 2050 11900 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
-	1    2050 12000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Bayieeemax_Project-rescue:+5V-power-Bayieeemax_Project-rescue #PWR?
-U 1 1 6194F30C
-P 2550 11800
-F 0 "#PWR?" H 2550 11650 50  0001 C CNN
-F 1 "+5V" H 2565 11973 50  0000 C CNN
-F 2 "" H 2550 11800 50  0001 C CNN
-F 3 "" H 2550 11800 50  0001 C CNN
-	1    2550 11800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Bayieeemax_Project-rescue:GND-power-Bayieeemax_Project-rescue #PWR?
-U 1 1 619520C4
-P 2050 12500
-F 0 "#PWR?" H 2050 12250 50  0001 C CNN
-F 1 "GND" H 2055 12327 50  0000 C CNN
-F 2 "" H 2050 12500 50  0001 C CNN
-F 3 "" H 2050 12500 50  0001 C CNN
-	1    2050 12500
-	1    0    0    -1  
-$EndComp
-NoConn ~ 1550 12000
-NoConn ~ 2550 12000
-$Comp
-L Connector_Generic:Conn_01x02 J?
-U 1 1 61B205AF
-P 3150 11800
-F 0 "J?" H 3230 11792 50  0000 L CNN
-F 1 "Raspberry_POWER_IN" H 3230 11701 50  0000 L CNN
-F 2 "" H 3150 11800 50  0001 C CNN
-F 3 "~" H 3150 11800 50  0001 C CNN
-	1    3150 11800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Bayieeemax_Project-rescue:+5V-power-Bayieeemax_Project-rescue #PWR?
-U 1 1 61B21353
-P 2950 11800
-F 0 "#PWR?" H 2950 11650 50  0001 C CNN
-F 1 "+5V" H 2965 11973 50  0000 C CNN
-F 2 "" H 2950 11800 50  0001 C CNN
-F 3 "" H 2950 11800 50  0001 C CNN
-	1    2950 11800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Bayieeemax_Project-rescue:GND-power-Bayieeemax_Project-rescue #PWR?
-U 1 1 61B238D2
-P 2950 11900
-F 0 "#PWR?" H 2950 11650 50  0001 C CNN
-F 1 "GND" H 2955 11727 50  0000 C CNN
-F 2 "" H 2950 11900 50  0001 C CNN
-F 3 "" H 2950 11900 50  0001 C CNN
-	1    2950 11900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x03 J?
-U 1 1 61B26139
-P 4800 11900
-F 0 "J?" H 4880 11942 50  0000 L CNN
-F 1 "ACS_SENSOR" H 4880 11851 50  0000 L CNN
-F 2 "" H 4800 11900 50  0001 C CNN
-F 3 "~" H 4800 11900 50  0001 C CNN
-	1    4800 11900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Bayieeemax_Project-rescue:+5V-power-Bayieeemax_Project-rescue #PWR?
-U 1 1 61B26858
-P 4600 11800
-F 0 "#PWR?" H 4600 11650 50  0001 C CNN
-F 1 "+5V" H 4615 11973 50  0000 C CNN
-F 2 "" H 4600 11800 50  0001 C CNN
-F 3 "" H 4600 11800 50  0001 C CNN
-	1    4600 11800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Bayieeemax_Project-rescue:GND-power-Bayieeemax_Project-rescue #PWR?
-U 1 1 61B26BD0
-P 4600 12200
-F 0 "#PWR?" H 4600 11950 50  0001 C CNN
-F 1 "GND" H 4605 12027 50  0000 C CNN
-F 2 "" H 4600 12200 50  0001 C CNN
-F 3 "" H 4600 12200 50  0001 C CNN
-	1    4600 12200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4600 12000 4600 12200
-Text Notes 2900 12200 0    50   ~ 0
-USB_Raspbery_charge\n
-$Comp
 L Connector_Generic:Conn_01x04 J?
 U 1 1 61B36CFA
 P 22550 1550
@@ -199,224 +92,12 @@ F 3 "https://www.pololu.com/product/2982" H 20950 1550 50  0001 C CNN
 	1    20850 1850
 	1    0    0    -1  
 $EndComp
-$Comp
-L Bayieeemax_Project-rescue:ChinaBluePill U?
-U 1 1 61B6C4D7
-P 10750 5700
-F 0 "U?" H 10750 6515 50  0000 C CNN
-F 1 "ChinaBluePill" H 10750 6424 50  0000 C CNN
-F 2 "" H 10750 5700 50  0001 C CNN
-F 3 "" H 10750 5700 50  0001 C CNN
-	1    10750 5700
-	1    0    0    -1  
-$EndComp
-Text Label 4150 12300 0    50   ~ 0
-ACS
-Wire Wire Line
-	4150 12300 4350 12300
-$Comp
-L Device:R R?
-U 1 1 61B297D5
-P 4350 12100
-F 0 "R?" H 4420 12146 50  0000 L CNN
-F 1 "1.7K" H 4420 12055 50  0000 L CNN
-F 2 "" V 4280 12100 50  0001 C CNN
-F 3 "~" H 4350 12100 50  0001 C CNN
-	1    4350 12100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 61B29CFD
-P 4350 12500
-F 0 "R?" H 4420 12546 50  0000 L CNN
-F 1 "3.3K" H 4420 12455 50  0000 L CNN
-F 2 "" V 4280 12500 50  0001 C CNN
-F 3 "~" H 4350 12500 50  0001 C CNN
-	1    4350 12500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4350 11900 4350 11950
-Wire Wire Line
-	4350 11900 4600 11900
-Wire Wire Line
-	4350 12250 4350 12300
-Connection ~ 4350 12300
-Wire Wire Line
-	4350 12300 4350 12350
-$Comp
-L Bayieeemax_Project-rescue:GND-power-Bayieeemax_Project-rescue #PWR?
-U 1 1 61B301B7
-P 4350 12650
-F 0 "#PWR?" H 4350 12400 50  0001 C CNN
-F 1 "GND" H 4355 12477 50  0000 C CNN
-F 2 "" H 4350 12650 50  0001 C CNN
-F 3 "" H 4350 12650 50  0001 C CNN
-	1    4350 12650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x06 J?
-U 1 1 61B31C4D
-P 2150 13750
-F 0 "J?" H 2100 14050 50  0000 L CNN
-F 1 "USB_TTL" H 2100 13350 50  0000 L CNN
-F 2 "" H 2150 13750 50  0001 C CNN
-F 3 "~" H 2150 13750 50  0001 C CNN
-	1    2150 13750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Bayieeemax_Project-rescue:+5V-power-Bayieeemax_Project-rescue #PWR?
-U 1 1 61B33460
-P 1750 13550
-F 0 "#PWR?" H 1750 13400 50  0001 C CNN
-F 1 "+5V" H 1765 13723 50  0000 C CNN
-F 2 "" H 1750 13550 50  0001 C CNN
-F 3 "" H 1750 13550 50  0001 C CNN
-	1    1750 13550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1750 13550 1950 13550
-NoConn ~ 1950 13650
-NoConn ~ 1950 13750
-$Comp
-L Bayieeemax_Project-rescue:GND-power-Bayieeemax_Project-rescue #PWR?
-U 1 1 61B364D4
-P 1750 14150
-F 0 "#PWR?" H 1750 13900 50  0001 C CNN
-F 1 "GND" H 1755 13977 50  0000 C CNN
-F 2 "" H 1750 14150 50  0001 C CNN
-F 3 "" H 1750 14150 50  0001 C CNN
-	1    1750 14150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1750 14150 1750 14050
-Wire Wire Line
-	1750 14050 1950 14050
-$Comp
-L Connector_Generic:Conn_01x02 J?
-U 1 1 61B46CC2
-P 1450 1950
-F 0 "J?" H 1400 2050 50  0000 L CNN
-F 1 "Baterry_P.IN" H 1350 1750 50  0000 L CNN
-F 2 "" H 1450 1950 50  0001 C CNN
-F 3 "~" H 1450 1950 50  0001 C CNN
-	1    1450 1950
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	1750 1950 1750 1850
-$Comp
-L Bayieeemax_Project-rescue:GND-power-Bayieeemax_Project-rescue #PWR?
-U 1 1 61B4EB23
-P 1750 2150
-F 0 "#PWR?" H 1750 1900 50  0001 C CNN
-F 1 "GND" H 1755 1977 50  0000 C CNN
-F 2 "" H 1750 2150 50  0001 C CNN
-F 3 "" H 1750 2150 50  0001 C CNN
-	1    1750 2150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1650 2050 1750 2050
-Wire Wire Line
-	1750 2050 1750 2150
 Wire Wire Line
 	20100 2000 20100 2100
 Text Label 20400 2300 2    50   ~ 0
 DIREC_1
 Text Label 20400 2200 2    50   ~ 0
 STEP_1
-$Comp
-L Bayieeemax_Project-rescue:GND-power-Bayieeemax_Project-rescue #PWR?
-U 1 1 61B7D61F
-P 10750 7300
-F 0 "#PWR?" H 10750 7050 50  0001 C CNN
-F 1 "GND" H 10755 7127 50  0000 C CNN
-F 2 "" H 10750 7300 50  0001 C CNN
-F 3 "" H 10750 7300 50  0001 C CNN
-	1    10750 7300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Bayieeemax_Project-rescue:GND-power-Bayieeemax_Project-rescue #PWR?
-U 1 1 61B7E584
-P 10850 7300
-F 0 "#PWR?" H 10850 7050 50  0001 C CNN
-F 1 "GND" H 10855 7127 50  0000 C CNN
-F 2 "" H 10850 7300 50  0001 C CNN
-F 3 "" H 10850 7300 50  0001 C CNN
-	1    10850 7300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10850 7250 10850 7300
-Wire Wire Line
-	10750 7250 10750 7300
-$Comp
-L power:+3V3 #PWR?
-U 1 1 61B8090B
-P 10400 7300
-F 0 "#PWR?" H 10400 7150 50  0001 C CNN
-F 1 "+3V3" H 10415 7473 50  0000 C CNN
-F 2 "" H 10400 7300 50  0001 C CNN
-F 3 "" H 10400 7300 50  0001 C CNN
-	1    10400 7300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10400 7300 10650 7300
-Wire Wire Line
-	10650 7300 10650 7250
-$Comp
-L Bayieeemax_Project-rescue:GND-power-Bayieeemax_Project-rescue #PWR?
-U 1 1 61B826FC
-P 11550 7000
-F 0 "#PWR?" H 11550 6750 50  0001 C CNN
-F 1 "GND" H 11555 6827 50  0000 C CNN
-F 2 "" H 11550 7000 50  0001 C CNN
-F 3 "" H 11550 7000 50  0001 C CNN
-	1    11550 7000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	11450 6950 11550 6950
-Wire Wire Line
-	11550 6950 11550 7000
-$Comp
-L power:+3V3 #PWR?
-U 1 1 61B84210
-P 9750 6750
-F 0 "#PWR?" H 9750 6600 50  0001 C CNN
-F 1 "+3V3" H 9765 6923 50  0000 C CNN
-F 2 "" H 9750 6750 50  0001 C CNN
-F 3 "" H 9750 6750 50  0001 C CNN
-	1    9750 6750
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	10050 6750 9750 6750
-$Comp
-L Bayieeemax_Project-rescue:+5V-power-Bayieeemax_Project-rescue #PWR?
-U 1 1 61B8712B
-P 9900 6900
-F 0 "#PWR?" H 9900 6750 50  0001 C CNN
-F 1 "+5V" H 9915 7073 50  0000 C CNN
-F 2 "" H 9900 6900 50  0001 C CNN
-F 3 "" H 9900 6900 50  0001 C CNN
-	1    9900 6900
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	9900 6900 9900 6850
-Wire Wire Line
-	9900 6850 10050 6850
-NoConn ~ 10050 6650
-NoConn ~ 10050 6550
 $Comp
 L power:GND #PWR?
 U 1 1 61B9D720
@@ -448,36 +129,6 @@ Wire Wire Line
 	20400 2200 20450 2200
 Wire Wire Line
 	20450 2300 20400 2300
-Text Label 1900 13850 2    50   ~ 0
-Tx_SERIAL
-Text Label 1900 13950 2    50   ~ 0
-Rx_SERIAL
-Wire Wire Line
-	1950 13850 1900 13850
-Wire Wire Line
-	1900 13950 1950 13950
-$Comp
-L power:+15V #PWR?
-U 1 1 61B3B744
-P 1550 11800
-F 0 "#PWR?" H 1550 11650 50  0001 C CNN
-F 1 "+15V" H 1565 11973 50  0000 C CNN
-F 2 "" H 1550 11800 50  0001 C CNN
-F 3 "" H 1550 11800 50  0001 C CNN
-	1    1550 11800
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+15V #PWR?
-U 1 1 61B3D446
-P 1750 1850
-F 0 "#PWR?" H 1750 1700 50  0001 C CNN
-F 1 "+15V" H 1765 2023 50  0000 C CNN
-F 2 "" H 1750 1850 50  0001 C CNN
-F 3 "" H 1750 1850 50  0001 C CNN
-	1    1750 1850
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:+15V #PWR?
 U 1 1 61B3F8C1
@@ -518,33 +169,6 @@ F 3 "" H 20100 2000 50  0001 C CNN
 	1    20100 2000
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1650 1950 1750 1950
-Wire Wire Line
-	1750 1950 1850 1950
-Connection ~ 1750 1950
-Wire Wire Line
-	1750 2050 1850 2050
-Connection ~ 1750 2050
-$Comp
-L Device:C C?
-U 1 1 61BFEE95
-P 2050 2000
-F 0 "C?" H 1935 1954 50  0000 R CNN
-F 1 "1000uF" H 1935 2045 50  0000 R CNN
-F 2 "" H 2088 1850 50  0001 C CNN
-F 3 "~" H 2050 2000 50  0001 C CNN
-	1    2050 2000
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	1850 1950 1850 1850
-Wire Wire Line
-	1850 1850 2050 1850
-Wire Wire Line
-	1850 2050 1850 2150
-Wire Wire Line
-	1850 2150 2050 2150
 $Comp
 L Connector_Generic:Conn_02x03_Odd_Even J?
 U 1 1 61C0D820
@@ -1613,328 +1237,641 @@ Text Label 22300 9050 2    50   ~ 0
 MOTOR5_A1
 Text Label 20400 11000 2    50   ~ 0
 M0_6
+Wire Wire Line
+	1850 2150 2050 2150
+Wire Wire Line
+	1850 2050 1850 2150
+Wire Wire Line
+	1850 1850 2050 1850
+Wire Wire Line
+	1850 1950 1850 1850
 $Comp
-L Connector_Generic:Conn_01x06 J?
-U 1 1 61C2171F
-P 13900 9850
-F 0 "J?" H 13850 10150 50  0000 L CNN
-F 1 "GPS_Conn" H 13750 9450 50  0000 L CNN
-F 2 "" H 13900 9850 50  0001 C CNN
-F 3 "~" H 13900 9850 50  0001 C CNN
-	1    13900 9850
+L Device:C C?
+U 1 1 61BFEE95
+P 2050 2000
+F 0 "C?" H 1935 1954 50  0000 R CNN
+F 1 "1000uF" H 1935 2045 50  0000 R CNN
+F 2 "" H 2088 1850 50  0001 C CNN
+F 3 "~" H 2050 2000 50  0001 C CNN
+	1    2050 2000
+	-1   0    0    1   
+$EndComp
+Connection ~ 1750 2050
+Wire Wire Line
+	1750 2050 1850 2050
+Connection ~ 1750 1950
+Wire Wire Line
+	1750 1950 1850 1950
+Wire Wire Line
+	1650 1950 1750 1950
+$Comp
+L power:+15V #PWR?
+U 1 1 61B3D446
+P 1750 1850
+F 0 "#PWR?" H 1750 1700 50  0001 C CNN
+F 1 "+15V" H 1765 2023 50  0000 C CNN
+F 2 "" H 1750 1850 50  0001 C CNN
+F 3 "" H 1750 1850 50  0001 C CNN
+	1    1750 1850
 	1    0    0    -1  
 $EndComp
-Text Label 13600 9650 2    50   ~ 0
-EN_GPS
-Text Label 13600 9750 2    50   ~ 0
-GND_GPS
-Text Label 13600 9850 2    50   ~ 0
-RX_GPS
-Text Label 13600 9950 2    50   ~ 0
-TX_GPS
-Text Label 13600 10050 2    50   ~ 0
-VCC3V3_GPS
-Text Label 13600 10150 2    50   ~ 0
-PPS_GPS
 Wire Wire Line
-	13600 9650 13700 9650
+	1750 2050 1750 2150
 Wire Wire Line
-	13700 9750 13600 9750
-Wire Wire Line
-	13700 9850 13600 9850
-Wire Wire Line
-	13600 9950 13700 9950
-Wire Wire Line
-	13700 10050 13600 10050
-Wire Wire Line
-	13600 10150 13700 10150
-$Comp
-L Bayieeemax_Project-rescue:MPU-9250 U?
-U 1 1 61C9EC7E
-P 9750 9900
-F 0 "U?" H 9750 10865 50  0000 C CNN
-F 1 "MPU-9250" H 9750 10774 50  0000 C CNN
-F 2 "QFN40P300X300X105-24N" H 9800 10700 50  0001 L BNN
-F 3 "" H 9850 10200 50  0001 L BNN
-F 4 "MPU-9250" H 9350 10700 50  0001 L BNN "MP"
-F 5 "SMD Gyroscope/Accelerometer/Magnetometer Sensor; 9-AXIS" H 9250 8950 50  0001 L BNN "DESCRIPTION"
-F 6 "The center Exposed Pad (EP), for MPU devices is a No Connect (NC) pad. To avoid package stress, do not solder the EP to the PCB. Please refer to the document “AN-IVS-0002A-00”. As a result of these guidelines, the exposed pad has not been included on the PCB footprint. We’ve added a keep-out area under the exposed pad. Please don’t route traces or vias under the part, on the same side of the board" H 7800 11550 50  0001 L BNN "NOTES"
-	1    9750 9900
-	1    0    0    -1  
-$EndComp
-Text Label 8850 9800 2    50   ~ 0
-SLC_MPU9250
-Wire Wire Line
-	8850 9800 8950 9800
-Text Label 8850 9900 2    50   ~ 0
-SDA_MPU9250
-Wire Wire Line
-	8850 9900 8950 9900
+	1650 2050 1750 2050
 $Comp
 L Bayieeemax_Project-rescue:GND-power-Bayieeemax_Project-rescue #PWR?
-U 1 1 61CD8A04
-P 10650 10550
-F 0 "#PWR?" H 10650 10300 50  0001 C CNN
-F 1 "GND" H 10655 10377 50  0000 C CNN
-F 2 "" H 10650 10550 50  0001 C CNN
-F 3 "" H 10650 10550 50  0001 C CNN
-	1    10650 10550
+U 1 1 61B4EB23
+P 1750 2150
+F 0 "#PWR?" H 1750 1900 50  0001 C CNN
+F 1 "GND" H 1755 1977 50  0000 C CNN
+F 2 "" H 1750 2150 50  0001 C CNN
+F 3 "" H 1750 2150 50  0001 C CNN
+	1    1750 2150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10550 10500 10650 10500
-Wire Wire Line
-	10650 10500 10650 10550
-$Comp
-L power:+3.3V #PWR?
-U 1 1 61D11C3D
-P 10650 9100
-F 0 "#PWR?" H 10650 8950 50  0001 C CNN
-F 1 "+3.3V" H 10665 9273 50  0000 C CNN
-F 2 "" H 10650 9100 50  0001 C CNN
-F 3 "" H 10650 9100 50  0001 C CNN
-	1    10650 9100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10650 9200 10650 9100
-Wire Wire Line
-	10550 9200 10650 9200
-Text Label 8850 9700 2    50   ~ 0
-nCS_MPU9250
-Wire Wire Line
-	8850 9700 8950 9700
-Text Label 8850 10000 2    50   ~ 0
-ADO_MPU9250
-Wire Wire Line
-	8850 10000 8950 10000
-NoConn ~ 8950 10100
-NoConn ~ 8950 10200
+	1750 1950 1750 1850
 $Comp
 L Connector_Generic:Conn_01x02 J?
-U 1 1 61DAB257
-P 13900 10500
-F 0 "J?" H 13850 10600 50  0000 L CNN
-F 1 "TTL_Raspberry" H 13700 10300 50  0000 L CNN
-F 2 "" H 13900 10500 50  0001 C CNN
-F 3 "~" H 13900 10500 50  0001 C CNN
-	1    13900 10500
-	1    0    0    -1  
-$EndComp
-Text Label 13600 10500 2    50   ~ 0
-RX_GPS
-Text Label 13600 10600 2    50   ~ 0
-TX_GPS
-Wire Wire Line
-	13700 10500 13600 10500
-Wire Wire Line
-	13600 10600 13700 10600
-$Comp
-L Connector:Conn_01x06_Female J?
-U 1 1 61E0EEAE
-P 11950 9800
-F 0 "J?" H 11978 9776 50  0000 L CNN
-F 1 "Conn_01x06_Female" H 11978 9685 50  0000 L CNN
-F 2 "" H 11950 9800 50  0001 C CNN
-F 3 "~" H 11950 9800 50  0001 C CNN
-	1    11950 9800
-	1    0    0    -1  
+U 1 1 61B46CC2
+P 1450 1950
+F 0 "J?" H 1400 2050 50  0000 L CNN
+F 1 "Baterry_P.IN" H 1350 1750 50  0000 L CNN
+F 2 "" H 1450 1950 50  0001 C CNN
+F 3 "~" H 1450 1950 50  0001 C CNN
+	1    1450 1950
+	-1   0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR?
-U 1 1 61E0F74E
-P 11650 9600
-F 0 "#PWR?" H 11650 9450 50  0001 C CNN
-F 1 "+3.3V" H 11665 9773 50  0000 C CNN
-F 2 "" H 11650 9600 50  0001 C CNN
-F 3 "" H 11650 9600 50  0001 C CNN
-	1    11650 9600
+L power:+15V #PWR?
+U 1 1 61B3B744
+P 1750 11200
+F 0 "#PWR?" H 1750 11050 50  0001 C CNN
+F 1 "+15V" H 1765 11373 50  0000 C CNN
+F 2 "" H 1750 11200 50  0001 C CNN
+F 3 "" H 1750 11200 50  0001 C CNN
+	1    1750 11200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	11650 9600 11750 9600
+	2100 13350 2150 13350
+Wire Wire Line
+	2150 13250 2100 13250
+Text Label 2100 13350 2    50   ~ 0
+Rx_SERIAL
+Text Label 2100 13250 2    50   ~ 0
+Tx_SERIAL
+Wire Wire Line
+	1950 13450 2150 13450
+Wire Wire Line
+	1950 13550 1950 13450
 $Comp
 L Bayieeemax_Project-rescue:GND-power-Bayieeemax_Project-rescue #PWR?
-U 1 1 61E4D85F
-P 11500 9600
-F 0 "#PWR?" H 11500 9350 50  0001 C CNN
-F 1 "GND" H 11505 9427 50  0000 C CNN
-F 2 "" H 11500 9600 50  0001 C CNN
-F 3 "" H 11500 9600 50  0001 C CNN
-	1    11500 9600
+U 1 1 61B364D4
+P 1950 13550
+F 0 "#PWR?" H 1950 13300 50  0001 C CNN
+F 1 "GND" H 1955 13377 50  0000 C CNN
+F 2 "" H 1950 13550 50  0001 C CNN
+F 3 "" H 1950 13550 50  0001 C CNN
+	1    1950 13550
+	1    0    0    -1  
+$EndComp
+NoConn ~ 2150 13150
+NoConn ~ 2150 13050
+Wire Wire Line
+	1950 12950 2150 12950
+$Comp
+L Bayieeemax_Project-rescue:+5V-power-Bayieeemax_Project-rescue #PWR?
+U 1 1 61B33460
+P 1950 12950
+F 0 "#PWR?" H 1950 12800 50  0001 C CNN
+F 1 "+5V" H 1965 13123 50  0000 C CNN
+F 2 "" H 1950 12950 50  0001 C CNN
+F 3 "" H 1950 12950 50  0001 C CNN
+	1    1950 12950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x06 J?
+U 1 1 61B31C4D
+P 2350 13150
+F 0 "J?" H 2300 13450 50  0000 L CNN
+F 1 "USB_TTL" H 2300 12750 50  0000 L CNN
+F 2 "" H 2350 13150 50  0001 C CNN
+F 3 "~" H 2350 13150 50  0001 C CNN
+	1    2350 13150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Bayieeemax_Project-rescue:GND-power-Bayieeemax_Project-rescue #PWR?
+U 1 1 61B301B7
+P 4550 12050
+F 0 "#PWR?" H 4550 11800 50  0001 C CNN
+F 1 "GND" H 4555 11877 50  0000 C CNN
+F 2 "" H 4550 12050 50  0001 C CNN
+F 3 "" H 4550 12050 50  0001 C CNN
+	1    4550 12050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 11700 4550 11750
+Connection ~ 4550 11700
+Wire Wire Line
+	4550 11650 4550 11700
+Wire Wire Line
+	4550 11300 4800 11300
+Wire Wire Line
+	4550 11300 4550 11350
+$Comp
+L Device:R R?
+U 1 1 61B29CFD
+P 4550 11900
+F 0 "R?" H 4620 11946 50  0000 L CNN
+F 1 "3.3K" H 4620 11855 50  0000 L CNN
+F 2 "" V 4480 11900 50  0001 C CNN
+F 3 "~" H 4550 11900 50  0001 C CNN
+	1    4550 11900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61B297D5
+P 4550 11500
+F 0 "R?" H 4620 11546 50  0000 L CNN
+F 1 "1.7K" H 4620 11455 50  0000 L CNN
+F 2 "" V 4480 11500 50  0001 C CNN
+F 3 "~" H 4550 11500 50  0001 C CNN
+	1    4550 11500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 11700 4550 11700
+Text Label 4350 11700 0    50   ~ 0
+ACS
+Text Notes 3100 11600 0    50   ~ 0
+USB_Raspbery_charge\n
+Wire Wire Line
+	4800 11400 4800 11600
+$Comp
+L Bayieeemax_Project-rescue:GND-power-Bayieeemax_Project-rescue #PWR?
+U 1 1 61B26BD0
+P 4800 11600
+F 0 "#PWR?" H 4800 11350 50  0001 C CNN
+F 1 "GND" H 4805 11427 50  0000 C CNN
+F 2 "" H 4800 11600 50  0001 C CNN
+F 3 "" H 4800 11600 50  0001 C CNN
+	1    4800 11600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Bayieeemax_Project-rescue:+5V-power-Bayieeemax_Project-rescue #PWR?
+U 1 1 61B26858
+P 4800 11200
+F 0 "#PWR?" H 4800 11050 50  0001 C CNN
+F 1 "+5V" H 4815 11373 50  0000 C CNN
+F 2 "" H 4800 11200 50  0001 C CNN
+F 3 "" H 4800 11200 50  0001 C CNN
+	1    4800 11200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J?
+U 1 1 61B26139
+P 5000 11300
+F 0 "J?" H 5080 11342 50  0000 L CNN
+F 1 "ACS_SENSOR" H 5080 11251 50  0000 L CNN
+F 2 "" H 5000 11300 50  0001 C CNN
+F 3 "~" H 5000 11300 50  0001 C CNN
+	1    5000 11300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Bayieeemax_Project-rescue:GND-power-Bayieeemax_Project-rescue #PWR?
+U 1 1 61B238D2
+P 3150 11300
+F 0 "#PWR?" H 3150 11050 50  0001 C CNN
+F 1 "GND" H 3155 11127 50  0000 C CNN
+F 2 "" H 3150 11300 50  0001 C CNN
+F 3 "" H 3150 11300 50  0001 C CNN
+	1    3150 11300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Bayieeemax_Project-rescue:+5V-power-Bayieeemax_Project-rescue #PWR?
+U 1 1 61B21353
+P 3150 11200
+F 0 "#PWR?" H 3150 11050 50  0001 C CNN
+F 1 "+5V" H 3165 11373 50  0000 C CNN
+F 2 "" H 3150 11200 50  0001 C CNN
+F 3 "" H 3150 11200 50  0001 C CNN
+	1    3150 11200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 61B205AF
+P 3350 11200
+F 0 "J?" H 3430 11192 50  0000 L CNN
+F 1 "Raspberry_POWER_IN" H 3430 11101 50  0000 L CNN
+F 2 "" H 3350 11200 50  0001 C CNN
+F 3 "~" H 3350 11200 50  0001 C CNN
+	1    3350 11200
+	1    0    0    -1  
+$EndComp
+NoConn ~ 2750 11400
+NoConn ~ 1750 11400
+$Comp
+L Bayieeemax_Project-rescue:GND-power-Bayieeemax_Project-rescue #PWR?
+U 1 1 619520C4
+P 2250 11900
+F 0 "#PWR?" H 2250 11650 50  0001 C CNN
+F 1 "GND" H 2255 11727 50  0000 C CNN
+F 2 "" H 2250 11900 50  0001 C CNN
+F 3 "" H 2250 11900 50  0001 C CNN
+	1    2250 11900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Bayieeemax_Project-rescue:+5V-power-Bayieeemax_Project-rescue #PWR?
+U 1 1 6194F30C
+P 2750 11200
+F 0 "#PWR?" H 2750 11050 50  0001 C CNN
+F 1 "+5V" H 2765 11373 50  0000 C CNN
+F 2 "" H 2750 11200 50  0001 C CNN
+F 3 "" H 2750 11200 50  0001 C CNN
+	1    2750 11200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Bayieeemax_Project-rescue:XL4015-XL4015 VR?
+U 1 1 61931A63
+P 2250 11400
+F 0 "VR?" H 2250 11867 50  0000 C CNN
+F 1 "XL4015" H 2250 11776 50  0000 C CNN
+F 2 "CONV_XL4015" H 2350 11000 50  0001 L BNN
+F 3 "" H 2250 11400 50  0001 L BNN
+F 4 "1.5" H 2250 11400 50  0001 L BNN "PARTREV"
+F 5 "4.77mm" H 2250 11300 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
+	1    2250 11400
+	1    0    0    -1  
+$EndComp
+NoConn ~ 10050 6550
+NoConn ~ 10050 6650
+Wire Wire Line
+	9900 6850 10050 6850
+Wire Wire Line
+	9900 6900 9900 6850
+$Comp
+L Bayieeemax_Project-rescue:+5V-power-Bayieeemax_Project-rescue #PWR?
+U 1 1 61B8712B
+P 9900 6900
+F 0 "#PWR?" H 9900 6750 50  0001 C CNN
+F 1 "+5V" H 9915 7073 50  0000 C CNN
+F 2 "" H 9900 6900 50  0001 C CNN
+F 3 "" H 9900 6900 50  0001 C CNN
+	1    9900 6900
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	11500 9600 11500 9700
+	10050 6750 9750 6750
+$Comp
+L power:+3V3 #PWR?
+U 1 1 61B84210
+P 9750 6750
+F 0 "#PWR?" H 9750 6600 50  0001 C CNN
+F 1 "+3V3" H 9765 6923 50  0000 C CNN
+F 2 "" H 9750 6750 50  0001 C CNN
+F 3 "" H 9750 6750 50  0001 C CNN
+	1    9750 6750
+	-1   0    0    1   
+$EndComp
 Wire Wire Line
-	11500 9700 11750 9700
-Text Label 11700 9800 2    50   ~ 0
-SLC_MPU9250
+	11550 6950 11550 7000
 Wire Wire Line
-	11700 9800 11750 9800
-Text Label 11700 9900 2    50   ~ 0
+	11450 6950 11550 6950
+$Comp
+L Bayieeemax_Project-rescue:GND-power-Bayieeemax_Project-rescue #PWR?
+U 1 1 61B826FC
+P 11550 7000
+F 0 "#PWR?" H 11550 6750 50  0001 C CNN
+F 1 "GND" H 11555 6827 50  0000 C CNN
+F 2 "" H 11550 7000 50  0001 C CNN
+F 3 "" H 11550 7000 50  0001 C CNN
+	1    11550 7000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10650 7300 10650 7250
+Wire Wire Line
+	10400 7300 10650 7300
+$Comp
+L power:+3V3 #PWR?
+U 1 1 61B8090B
+P 10400 7300
+F 0 "#PWR?" H 10400 7150 50  0001 C CNN
+F 1 "+3V3" H 10415 7473 50  0000 C CNN
+F 2 "" H 10400 7300 50  0001 C CNN
+F 3 "" H 10400 7300 50  0001 C CNN
+	1    10400 7300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10750 7250 10750 7300
+Wire Wire Line
+	10850 7250 10850 7300
+$Comp
+L Bayieeemax_Project-rescue:GND-power-Bayieeemax_Project-rescue #PWR?
+U 1 1 61B7E584
+P 10850 7300
+F 0 "#PWR?" H 10850 7050 50  0001 C CNN
+F 1 "GND" H 10855 7127 50  0000 C CNN
+F 2 "" H 10850 7300 50  0001 C CNN
+F 3 "" H 10850 7300 50  0001 C CNN
+	1    10850 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Bayieeemax_Project-rescue:GND-power-Bayieeemax_Project-rescue #PWR?
+U 1 1 61B7D61F
+P 10750 7300
+F 0 "#PWR?" H 10750 7050 50  0001 C CNN
+F 1 "GND" H 10755 7127 50  0000 C CNN
+F 2 "" H 10750 7300 50  0001 C CNN
+F 3 "" H 10750 7300 50  0001 C CNN
+	1    10750 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Bayieeemax_Project-rescue:ChinaBluePill U?
+U 1 1 61B6C4D7
+P 10750 5700
+F 0 "U?" H 10750 6515 50  0000 C CNN
+F 1 "ChinaBluePill" H 10750 6424 50  0000 C CNN
+F 2 "" H 10750 5700 50  0001 C CNN
+F 3 "" H 10750 5700 50  0001 C CNN
+	1    10750 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9200 10000 9250 10000
+Text Label 9200 10000 2    50   ~ 0
 SDA_MPU9250
 Wire Wire Line
-	11700 9900 11750 9900
-Text Label 11700 10000 2    50   ~ 0
-nCS_MPU9250
-Wire Wire Line
-	11700 10000 11750 10000
-Text Label 11700 10100 2    50   ~ 0
-ADO_MPU9250
-Wire Wire Line
-	11750 10100 11700 10100
+	9200 9900 9250 9900
+Text Label 9200 9900 2    50   ~ 0
+SLC_MPU9250
 $Comp
 L Connector_Generic:Conn_01x02 J?
 U 1 1 61EBBA70
-P 11950 10350
-F 0 "J?" H 11900 10450 50  0000 L CNN
-F 1 "I2C_MPU_Raspberry" H 11750 10150 50  0000 L CNN
-F 2 "" H 11950 10350 50  0001 C CNN
-F 3 "~" H 11950 10350 50  0001 C CNN
-	1    11950 10350
+P 9450 9900
+F 0 "J?" H 9400 10000 50  0000 L CNN
+F 1 "I2C_MPU_Raspberry" H 9250 9700 50  0000 L CNN
+F 2 "" H 9450 9900 50  0001 C CNN
+F 3 "~" H 9450 9900 50  0001 C CNN
+	1    9450 9900
 	1    0    0    -1  
 $EndComp
-Text Label 11700 10350 2    50   ~ 0
-SLC_MPU9250
+NoConn ~ 6500 9850
+NoConn ~ 6500 9750
 Wire Wire Line
-	11700 10350 11750 10350
-Text Label 11700 10450 2    50   ~ 0
+	8100 8850 8200 8850
+Wire Wire Line
+	8200 8850 8200 8750
+$Comp
+L power:+3.3V #PWR?
+U 1 1 61D11C3D
+P 8200 8750
+F 0 "#PWR?" H 8200 8600 50  0001 C CNN
+F 1 "+3.3V" H 8215 8923 50  0000 C CNN
+F 2 "" H 8200 8750 50  0001 C CNN
+F 3 "" H 8200 8750 50  0001 C CNN
+	1    8200 8750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 10150 8200 10200
+Wire Wire Line
+	8100 10150 8200 10150
+$Comp
+L Bayieeemax_Project-rescue:GND-power-Bayieeemax_Project-rescue #PWR?
+U 1 1 61CD8A04
+P 8200 10200
+F 0 "#PWR?" H 8200 9950 50  0001 C CNN
+F 1 "GND" H 8205 10027 50  0000 C CNN
+F 2 "" H 8200 10200 50  0001 C CNN
+F 3 "" H 8200 10200 50  0001 C CNN
+	1    8200 10200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 9550 6500 9550
+Text Label 6400 9550 2    50   ~ 0
 SDA_MPU9250
 Wire Wire Line
-	11700 10450 11750 10450
+	6400 9450 6500 9450
+Text Label 6400 9450 2    50   ~ 0
+SLC_MPU9250
 $Comp
-L Bayieeemax_Project-rescue:GND-power-Bayieeemax_Project-rescue #PWR?
-U 1 1 61FB825A
-P 10600 12900
-F 0 "#PWR?" H 10600 12650 50  0001 C CNN
-F 1 "GND" H 10605 12727 50  0000 C CNN
-F 2 "" H 10600 12900 50  0001 C CNN
-F 3 "" H 10600 12900 50  0001 C CNN
-	1    10600 12900
+L Bayieeemax_Project-rescue:MPU-9250 U?
+U 1 1 61C9EC7E
+P 7300 9550
+F 0 "U?" H 7300 10515 50  0000 C CNN
+F 1 "MPU-9250" H 7300 10424 50  0000 C CNN
+F 2 "QFN40P300X300X105-24N" H 7350 10350 50  0001 L BNN
+F 3 "" H 7400 9850 50  0001 L BNN
+F 4 "MPU-9250" H 6900 10350 50  0001 L BNN "MP"
+F 5 "SMD Gyroscope/Accelerometer/Magnetometer Sensor; 9-AXIS" H 6800 8600 50  0001 L BNN "DESCRIPTION"
+F 6 "The center Exposed Pad (EP), for MPU devices is a No Connect (NC) pad. To avoid package stress, do not solder the EP to the PCB. Please refer to the document “AN-IVS-0002A-00”. As a result of these guidelines, the exposed pad has not been included on the PCB footprint. We’ve added a keep-out area under the exposed pad. Please don’t route traces or vias under the part, on the same side of the board" H 5350 11200 50  0001 L BNN "NOTES"
+	1    7300 9550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10400 12850 10600 12850
+	13750 10150 13700 10150
 Wire Wire Line
-	10600 12850 10600 12900
-$Comp
-L Connector_Generic:Conn_01x02 J?
-U 1 1 61FCF8E6
-P 11850 13150
-F 0 "J?" H 11800 13250 50  0000 L CNN
-F 1 "I2C_MAX30100_Raspberry" H 11650 12950 50  0000 L CNN
-F 2 "" H 11850 13150 50  0001 C CNN
-F 3 "~" H 11850 13150 50  0001 C CNN
-	1    11850 13150
-	1    0    0    -1  
-$EndComp
-Text Label 8950 12250 2    50   ~ 0
-~INT
-Text Label 8950 12750 2    50   ~ 0
+	13700 10050 13750 10050
+Text Label 13700 10150 2    50   ~ 0
 SDA_MAX3100
-Text Label 8950 12550 2    50   ~ 0
+Text Label 13700 10050 2    50   ~ 0
 SCL_MAX3100
-Text Label 10450 12450 0    50   ~ 0
-IRO
-Text Label 10450 12550 0    50   ~ 0
-RD
-Wire Wire Line
-	10400 12450 10450 12450
-Wire Wire Line
-	10450 12550 10400 12550
-Wire Wire Line
-	9000 12250 8950 12250
-Wire Wire Line
-	8950 12550 9000 12550
-Wire Wire Line
-	9000 12750 8950 12750
-$Comp
-L power:+3.3V #PWR?
-U 1 1 6207365E
-P 10550 12100
-F 0 "#PWR?" H 10550 11950 50  0001 C CNN
-F 1 "+3.3V" H 10565 12273 50  0000 C CNN
-F 2 "" H 10550 12100 50  0001 C CNN
-F 3 "" H 10550 12100 50  0001 C CNN
-	1    10550 12100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10400 12150 10550 12150
-Wire Wire Line
-	10550 12150 10550 12100
 $Comp
 L Bayieeemax_Project-rescue:MAX30100EFD+ U?
-U 1 1 61FB7554
-P 9700 12500
-F 0 "U?" H 9700 13117 50  0000 C CNN
-F 1 "MAX30100EFD+" H 9700 13026 50  0000 C CNN
-F 2 "LGA14R80P2X7_560X280X130" H 9450 11850 50  0001 L BNN
-F 3 "" H 9700 12500 50  0001 L BNN
-F 4 "Maxim Integrated" H 9500 13050 50  0001 L BNN "MANUFACTURER"
-	1    9700 12500
+U 1 1 620336FF
+P 11950 9400
+F 0 "U?" H 11950 10017 50  0000 C CNN
+F 1 "MAX30100EFD+" H 11950 9926 50  0000 C CNN
+F 2 "LGA14R80P2X7_560X280X130" H 11700 8750 50  0001 L BNN
+F 3 "" H 11950 9400 50  0001 L BNN
+F 4 "Maxim Integrated" H 11750 9950 50  0001 L BNN "MANUFACTURER"
+	1    11950 9400
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	12800 9050 12800 9000
+Wire Wire Line
+	12650 9050 12800 9050
 $Comp
 L power:+3.3V #PWR?
-U 1 1 620C00B6
-P 11700 11950
-F 0 "#PWR?" H 11700 11800 50  0001 C CNN
-F 1 "+3.3V" H 11715 12123 50  0000 C CNN
-F 2 "" H 11700 11950 50  0001 C CNN
-F 3 "" H 11700 11950 50  0001 C CNN
-	1    11700 11950
+U 1 1 62033707
+P 12800 9000
+F 0 "#PWR?" H 12800 8850 50  0001 C CNN
+F 1 "+3.3V" H 12815 9173 50  0000 C CNN
+F 2 "" H 12800 9000 50  0001 C CNN
+F 3 "" H 12800 9000 50  0001 C CNN
+	1    12800 9000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	11700 11950 11700 12000
+	11250 9650 11200 9650
 Wire Wire Line
-	11700 12000 11750 12000
-Text Label 11700 12100 2    50   ~ 0
+	11200 9450 11250 9450
+Wire Wire Line
+	11250 9150 11200 9150
+Wire Wire Line
+	12700 9450 12650 9450
+Wire Wire Line
+	12650 9350 12700 9350
+Text Label 12700 9450 0    50   ~ 0
+RD
+Text Label 12700 9350 0    50   ~ 0
+IRO
+Text Label 11200 9450 2    50   ~ 0
 SCL_MAX3100
-Text Label 11700 12200 2    50   ~ 0
+Text Label 11200 9650 2    50   ~ 0
 SDA_MAX3100
-Text Label 11700 12300 2    50   ~ 0
+Text Label 11200 9150 2    50   ~ 0
 ~INT
-Wire Wire Line
-	11750 12100 11700 12100
-Wire Wire Line
-	11750 12200 11700 12200
-Wire Wire Line
-	11750 12300 11700 12300
 $Comp
-L Connector:Conn_01x07_Female J?
-U 1 1 62124FF9
-P 11950 12300
-F 0 "J?" H 11850 12700 50  0000 L CNN
-F 1 "MAX300100_Conn" H 11850 11900 50  0000 L CNN
-F 2 "" H 11950 12300 50  0001 C CNN
-F 3 "~" H 11950 12300 50  0001 C CNN
-	1    11950 12300
+L Connector_Generic:Conn_01x02 J?
+U 1 1 62033717
+P 13950 10050
+F 0 "J?" H 13900 10150 50  0000 L CNN
+F 1 "I2C_MAX30100_Raspberry" H 13750 9850 50  0000 L CNN
+F 2 "" H 13950 10050 50  0001 C CNN
+F 3 "~" H 13950 10050 50  0001 C CNN
+	1    13950 10050
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	12850 9750 12850 9800
+Wire Wire Line
+	12650 9750 12850 9750
 $Comp
 L Bayieeemax_Project-rescue:GND-power-Bayieeemax_Project-rescue #PWR?
-U 1 1 621751C7
-P 11700 12650
-F 0 "#PWR?" H 11700 12400 50  0001 C CNN
-F 1 "GND" H 11705 12477 50  0000 C CNN
-F 2 "" H 11700 12650 50  0001 C CNN
-F 3 "" H 11700 12650 50  0001 C CNN
-	1    11700 12650
+U 1 1 6203371F
+P 12850 9800
+F 0 "#PWR?" H 12850 9550 50  0001 C CNN
+F 1 "GND" H 12855 9627 50  0000 C CNN
+F 2 "" H 12850 9800 50  0001 C CNN
+F 3 "" H 12850 9800 50  0001 C CNN
+	1    12850 9800
+	1    0    0    -1  
+$EndComp
+Text Label 11500 6050 0    50   ~ 0
+SCL_MAX3100
+Text Label 11500 6150 0    50   ~ 0
+SDA_MAX3100
+Text Label 10000 5350 2    50   ~ 0
+TX_GPS
+Text Label 10000 5450 2    50   ~ 0
+RX_GPS
+Wire Wire Line
+	7400 12100 7500 12100
+Wire Wire Line
+	7500 12000 7400 12000
+Text Label 7400 12100 2    50   ~ 0
+TX_GPS
+Text Label 7400 12000 2    50   ~ 0
+RX_GPS
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 61DAB257
+P 7700 12000
+F 0 "J?" H 7650 12100 50  0000 L CNN
+F 1 "TTL_Raspberry" H 7500 11800 50  0000 L CNN
+F 2 "" H 7700 12000 50  0001 C CNN
+F 3 "~" H 7700 12000 50  0001 C CNN
+	1    7700 12000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	11700 12650 11700 12600
+	7400 11650 7500 11650
 Wire Wire Line
-	11700 12600 11750 12600
-Text Label 11700 12400 2    50   ~ 0
-IRO
-Text Label 11700 12500 2    50   ~ 0
-RD
+	7500 11550 7400 11550
 Wire Wire Line
-	11700 12400 11750 12400
+	7400 11450 7500 11450
 Wire Wire Line
-	11750 12500 11700 12500
+	7500 11350 7400 11350
+Wire Wire Line
+	7500 11250 7400 11250
+Wire Wire Line
+	7400 11150 7500 11150
+Text Label 7400 11650 2    50   ~ 0
+PPS_GPS
+Text Label 7400 11550 2    50   ~ 0
+VCC3V3_GPS
+Text Label 7400 11450 2    50   ~ 0
+TX_GPS
+Text Label 7400 11350 2    50   ~ 0
+RX_GPS
+Text Label 7400 11250 2    50   ~ 0
+GND_GPS
+Text Label 7400 11150 2    50   ~ 0
+EN_GPS
+$Comp
+L Connector_Generic:Conn_01x06 J?
+U 1 1 61C2171F
+P 7700 11350
+F 0 "J?" H 7650 11650 50  0000 L CNN
+F 1 "GPS_Conn" H 7550 10950 50  0000 L CNN
+F 2 "" H 7700 11350 50  0001 C CNN
+F 3 "~" H 7700 11350 50  0001 C CNN
+	1    7700 11350
+	1    0    0    -1  
+$EndComp
+Text Label 10000 5950 2    50   ~ 0
+STEP_1
+Text Label 10000 6050 2    50   ~ 0
+STEP_2
+Text Label 10000 6150 2    50   ~ 0
+STEP_3
+Text Label 11500 5650 0    50   ~ 0
+STEP_4
+Text Label 11500 5850 0    50   ~ 0
+STEP_6
+Text Label 11500 5750 0    50   ~ 0
+STEP_5
+Text Notes 9250 5450 0    50   ~ 0
+UART GPS\n\n
+Wire Wire Line
+	10050 5950 10000 5950
+Wire Wire Line
+	10000 6050 10050 6050
+Wire Wire Line
+	10050 6150 10000 6150
+Wire Wire Line
+	10000 5450 10050 5450
+Wire Wire Line
+	10000 5350 10050 5350
+Wire Wire Line
+	11450 6050 11500 6050
+Wire Wire Line
+	11500 6150 11450 6150
+Wire Wire Line
+	11450 5650 11500 5650
+Wire Wire Line
+	11500 5750 11450 5750
+Wire Wire Line
+	11450 5850 11500 5850
+NoConn ~ 11250 9250
+NoConn ~ 11250 9350
+NoConn ~ 6500 9650
+NoConn ~ 6500 9150
+NoConn ~ 8100 8950
+NoConn ~ 8100 9150
+NoConn ~ 8100 9350
+NoConn ~ 8100 9550
+NoConn ~ 8100 9650
+NoConn ~ 8100 9750
+NoConn ~ 6500 9350
 $EndSCHEMATC
