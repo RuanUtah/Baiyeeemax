@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 "Author: Ruan Utah & Júlia Maria"
 $EndDescr
 $Comp
-L Connector_Generic:Conn_01x04 J?
+L Connector_Generic:Conn_01x04 J11
 U 1 1 61B36CFA
 P 22550 1550
-F 0 "J?" H 22500 1750 50  0000 L CNN
+F 0 "J11" H 22500 1750 50  0000 L CNN
 F 1 "Motor1" H 22450 1250 50  0000 L CNN
 F 2 "" H 22550 1550 50  0001 C CNN
 F 3 "~" H 22550 1550 50  0001 C CNN
@@ -25,10 +25,10 @@ F 3 "~" H 22550 1550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR044
 U 1 1 61B3DFC2
 P 21750 1250
-F 0 "#PWR?" H 21750 1000 50  0001 C CNN
+F 0 "#PWR044" H 21750 1000 50  0001 C CNN
 F 1 "GND" V 21755 1122 50  0000 R CNN
 F 2 "" H 21750 1250 50  0001 C CNN
 F 3 "" H 21750 1250 50  0001 C CNN
@@ -36,10 +36,10 @@ F 3 "" H 21750 1250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C2
 U 1 1 61B38B9F
 P 21550 1250
-F 0 "C?" V 21700 1250 50  0000 C CNN
+F 0 "C2" V 21700 1250 50  0000 C CNN
 F 1 "100uF" V 21400 1250 50  0000 C CNN
 F 2 "" H 21588 1100 50  0001 C CNN
 F 3 "~" H 21550 1250 50  0001 C CNN
@@ -82,10 +82,10 @@ Text Label 21300 2100 0    50   ~ 0
 MOTOR1_A2
 NoConn ~ 21250 2300
 $Comp
-L Bayieeemax_Project-rescue:Pololu_Breakout_DRV8825-Driver_Motor A?
+L Bayieeemax_Project-rescue:Pololu_Breakout_DRV8825-Driver_Motor A1
 U 1 1 619A8A19
 P 20850 1850
-F 0 "A?" H 20600 2400 50  0000 C CNN
+F 0 "A1" H 20600 2400 50  0000 C CNN
 F 1 "Pololu_Breakout_DRV8825_1" H 20750 1100 50  0000 C CNN
 F 2 "Module:Pololu_Breakout-16_15.2x20.3mm" H 21050 1050 50  0001 L CNN
 F 3 "https://www.pololu.com/product/2982" H 20950 1550 50  0001 C CNN
@@ -99,10 +99,10 @@ DIREC_1
 Text Label 20400 2200 2    50   ~ 0
 STEP_1
 $Comp
-L power:GND #PWR?
+L power:GND #PWR038
 U 1 1 61B9D720
 P 21400 2450
-F 0 "#PWR?" H 21400 2200 50  0001 C CNN
+F 0 "#PWR038" H 21400 2200 50  0001 C CNN
 F 1 "GND" H 21405 2277 50  0000 C CNN
 F 2 "" H 21400 2450 50  0001 C CNN
 F 3 "" H 21400 2450 50  0001 C CNN
@@ -130,10 +130,10 @@ Wire Wire Line
 Wire Wire Line
 	20450 2300 20400 2300
 $Comp
-L power:+15V #PWR?
+L power:+15V #PWR032
 U 1 1 61B3F8C1
 P 21350 1150
-F 0 "#PWR?" H 21350 1000 50  0001 C CNN
+F 0 "#PWR032" H 21350 1000 50  0001 C CNN
 F 1 "+15V" H 21365 1323 50  0000 C CNN
 F 2 "" H 21350 1150 50  0001 C CNN
 F 3 "" H 21350 1150 50  0001 C CNN
@@ -141,12 +141,6 @@ F 3 "" H 21350 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 20450 1600
-Text Label 20400 1700 2    50   ~ 0
-M0_1
-Text Label 20400 1800 2    50   ~ 0
-M1_1
-Text Label 20400 1900 2    50   ~ 0
-M2_1
 Wire Wire Line
 	20100 2000 20450 2000
 Wire Wire Line
@@ -159,10 +153,10 @@ Wire Wire Line
 	20400 1900 20450 1900
 Connection ~ 20100 2000
 $Comp
-L Bayieeemax_Project-rescue:+5V-power-Bayieeemax_Project-rescue #PWR?
+L Bayieeemax_Project-rescue:+5V-power-Bayieeemax_Project-rescue #PWR026
 U 1 1 61B62E52
 P 20100 2000
-F 0 "#PWR?" H 20100 1850 50  0001 C CNN
+F 0 "#PWR026" H 20100 1850 50  0001 C CNN
 F 1 "+5V" H 20050 2150 50  0000 C CNN
 F 2 "" H 20100 2000 50  0001 C CNN
 F 3 "" H 20100 2000 50  0001 C CNN
@@ -170,58 +164,10 @@ F 3 "" H 20100 2000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x03_Odd_Even J?
-U 1 1 61C0D820
-P 22350 2350
-F 0 "J?" H 22400 2550 50  0000 C CNN
-F 1 "STP_RESOL/POWER_1" H 22400 2150 50  0000 C CNN
-F 2 "" H 22350 2350 50  0001 C CNN
-F 3 "~" H 22350 2350 50  0001 C CNN
-	1    22350 2350
-	1    0    0    -1  
-$EndComp
-Text Label 22100 2350 2    50   ~ 0
-M1_1
-Text Label 22100 2450 2    50   ~ 0
-M2_1
-Wire Wire Line
-	22100 2350 22150 2350
-Wire Wire Line
-	22100 2450 22150 2450
-$Comp
-L Bayieeemax_Project-rescue:+5V-power-Bayieeemax_Project-rescue #PWR?
-U 1 1 61C20F12
-P 22750 2200
-F 0 "#PWR?" H 22750 2050 50  0001 C CNN
-F 1 "+5V" H 22700 2350 50  0000 C CNN
-F 2 "" H 22750 2200 50  0001 C CNN
-F 3 "" H 22750 2200 50  0001 C CNN
-	1    22750 2200
-	1    0    0    -1  
-$EndComp
-Text Label 22100 2250 2    50   ~ 0
-M0_1
-Wire Wire Line
-	22100 2250 22150 2250
-Wire Wire Line
-	22650 2250 22750 2250
-Wire Wire Line
-	22750 2250 22750 2200
-Wire Wire Line
-	22750 2250 22750 2350
-Wire Wire Line
-	22750 2350 22650 2350
-Connection ~ 22750 2250
-Wire Wire Line
-	22650 2450 22750 2450
-Wire Wire Line
-	22750 2450 22750 2350
-Connection ~ 22750 2350
-$Comp
-L Connector_Generic:Conn_01x04 J?
+L Connector_Generic:Conn_01x04 J12
 U 1 1 61C59061
 P 22550 3450
-F 0 "J?" H 22500 3650 50  0000 L CNN
+F 0 "J12" H 22500 3650 50  0000 L CNN
 F 1 "Motor2" H 22450 3150 50  0000 L CNN
 F 2 "" H 22550 3450 50  0001 C CNN
 F 3 "~" H 22550 3450 50  0001 C CNN
@@ -229,10 +175,10 @@ F 3 "~" H 22550 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR045
 U 1 1 61C59067
 P 21750 3150
-F 0 "#PWR?" H 21750 2900 50  0001 C CNN
+F 0 "#PWR045" H 21750 2900 50  0001 C CNN
 F 1 "GND" V 21755 3022 50  0000 R CNN
 F 2 "" H 21750 3150 50  0001 C CNN
 F 3 "" H 21750 3150 50  0001 C CNN
@@ -240,10 +186,10 @@ F 3 "" H 21750 3150 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C3
 U 1 1 61C5906D
 P 21550 3150
-F 0 "C?" V 21700 3150 50  0000 C CNN
+F 0 "C3" V 21700 3150 50  0000 C CNN
 F 1 "100uF" V 21400 3150 50  0000 C CNN
 F 2 "" H 21588 3000 50  0001 C CNN
 F 3 "~" H 21550 3150 50  0001 C CNN
@@ -286,10 +232,10 @@ Text Label 21300 4000 0    50   ~ 0
 MOTOR2_A2
 NoConn ~ 21250 4200
 $Comp
-L Bayieeemax_Project-rescue:Pololu_Breakout_DRV8825-Driver_Motor A?
+L Bayieeemax_Project-rescue:Pololu_Breakout_DRV8825-Driver_Motor A2
 U 1 1 61C59086
 P 20850 3750
-F 0 "A?" H 20600 4300 50  0000 C CNN
+F 0 "A2" H 20600 4300 50  0000 C CNN
 F 1 "Pololu_Breakout_DRV8825_2" H 20750 3000 50  0000 C CNN
 F 2 "Module:Pololu_Breakout-16_15.2x20.3mm" H 21050 2950 50  0001 L CNN
 F 3 "https://www.pololu.com/product/2982" H 20950 3450 50  0001 C CNN
@@ -303,10 +249,10 @@ DIREC_2
 Text Label 20400 4100 2    50   ~ 0
 STEP_2
 $Comp
-L power:GND #PWR?
+L power:GND #PWR039
 U 1 1 61C5908F
 P 21400 4350
-F 0 "#PWR?" H 21400 4100 50  0001 C CNN
+F 0 "#PWR039" H 21400 4100 50  0001 C CNN
 F 1 "GND" H 21405 4177 50  0000 C CNN
 F 2 "" H 21400 4350 50  0001 C CNN
 F 3 "" H 21400 4350 50  0001 C CNN
@@ -334,10 +280,10 @@ Wire Wire Line
 Wire Wire Line
 	20450 4200 20400 4200
 $Comp
-L power:+15V #PWR?
+L power:+15V #PWR033
 U 1 1 61C5909F
 P 21350 3050
-F 0 "#PWR?" H 21350 2900 50  0001 C CNN
+F 0 "#PWR033" H 21350 2900 50  0001 C CNN
 F 1 "+15V" H 21365 3223 50  0000 C CNN
 F 2 "" H 21350 3050 50  0001 C CNN
 F 3 "" H 21350 3050 50  0001 C CNN
@@ -345,12 +291,6 @@ F 3 "" H 21350 3050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 20450 3500
-Text Label 20400 3600 2    50   ~ 0
-M0_2
-Text Label 20400 3700 2    50   ~ 0
-M1_2
-Text Label 20400 3800 2    50   ~ 0
-M2_2
 Wire Wire Line
 	20100 3900 20450 3900
 Wire Wire Line
@@ -363,10 +303,10 @@ Wire Wire Line
 	20400 3800 20450 3800
 Connection ~ 20100 3900
 $Comp
-L Bayieeemax_Project-rescue:+5V-power-Bayieeemax_Project-rescue #PWR?
+L Bayieeemax_Project-rescue:+5V-power-Bayieeemax_Project-rescue #PWR027
 U 1 1 61C590AF
 P 20100 3900
-F 0 "#PWR?" H 20100 3750 50  0001 C CNN
+F 0 "#PWR027" H 20100 3750 50  0001 C CNN
 F 1 "+5V" H 20050 4050 50  0000 C CNN
 F 2 "" H 20100 3900 50  0001 C CNN
 F 3 "" H 20100 3900 50  0001 C CNN
@@ -374,58 +314,10 @@ F 3 "" H 20100 3900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x03_Odd_Even J?
-U 1 1 61C590B5
-P 22350 4250
-F 0 "J?" H 22400 4450 50  0000 C CNN
-F 1 "STP_RESOL/POWER_2" H 22400 4050 50  0000 C CNN
-F 2 "" H 22350 4250 50  0001 C CNN
-F 3 "~" H 22350 4250 50  0001 C CNN
-	1    22350 4250
-	1    0    0    -1  
-$EndComp
-Text Label 22100 4250 2    50   ~ 0
-M1_2
-Text Label 22100 4350 2    50   ~ 0
-M2_2
-Wire Wire Line
-	22100 4250 22150 4250
-Wire Wire Line
-	22100 4350 22150 4350
-$Comp
-L Bayieeemax_Project-rescue:+5V-power-Bayieeemax_Project-rescue #PWR?
-U 1 1 61C590BF
-P 22750 4100
-F 0 "#PWR?" H 22750 3950 50  0001 C CNN
-F 1 "+5V" H 22700 4250 50  0000 C CNN
-F 2 "" H 22750 4100 50  0001 C CNN
-F 3 "" H 22750 4100 50  0001 C CNN
-	1    22750 4100
-	1    0    0    -1  
-$EndComp
-Text Label 22100 4150 2    50   ~ 0
-M0_2
-Wire Wire Line
-	22100 4150 22150 4150
-Wire Wire Line
-	22650 4150 22750 4150
-Wire Wire Line
-	22750 4150 22750 4100
-Wire Wire Line
-	22750 4150 22750 4250
-Wire Wire Line
-	22750 4250 22650 4250
-Connection ~ 22750 4150
-Wire Wire Line
-	22650 4350 22750 4350
-Wire Wire Line
-	22750 4350 22750 4250
-Connection ~ 22750 4250
-$Comp
-L Connector_Generic:Conn_01x04 J?
+L Connector_Generic:Conn_01x04 J13
 U 1 1 61C9894D
 P 22550 5250
-F 0 "J?" H 22500 5450 50  0000 L CNN
+F 0 "J13" H 22500 5450 50  0000 L CNN
 F 1 "Motor3" H 22450 4950 50  0000 L CNN
 F 2 "" H 22550 5250 50  0001 C CNN
 F 3 "~" H 22550 5250 50  0001 C CNN
@@ -433,10 +325,10 @@ F 3 "~" H 22550 5250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR046
 U 1 1 61C98953
 P 21750 4950
-F 0 "#PWR?" H 21750 4700 50  0001 C CNN
+F 0 "#PWR046" H 21750 4700 50  0001 C CNN
 F 1 "GND" V 21755 4822 50  0000 R CNN
 F 2 "" H 21750 4950 50  0001 C CNN
 F 3 "" H 21750 4950 50  0001 C CNN
@@ -444,10 +336,10 @@ F 3 "" H 21750 4950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C4
 U 1 1 61C98959
 P 21550 4950
-F 0 "C?" V 21700 4950 50  0000 C CNN
+F 0 "C4" V 21700 4950 50  0000 C CNN
 F 1 "100uF" V 21400 4950 50  0000 C CNN
 F 2 "" H 21588 4800 50  0001 C CNN
 F 3 "~" H 21550 4950 50  0001 C CNN
@@ -488,10 +380,10 @@ Text Label 21300 5800 0    50   ~ 0
 MOTOR3_A2
 NoConn ~ 21250 6000
 $Comp
-L Bayieeemax_Project-rescue:Pololu_Breakout_DRV8825-Driver_Motor A?
+L Bayieeemax_Project-rescue:Pololu_Breakout_DRV8825-Driver_Motor A3
 U 1 1 61C98972
 P 20850 5550
-F 0 "A?" H 20600 6100 50  0000 C CNN
+F 0 "A3" H 20600 6100 50  0000 C CNN
 F 1 "Pololu_Breakout_DRV8825_3" H 20750 4800 50  0000 C CNN
 F 2 "Module:Pololu_Breakout-16_15.2x20.3mm" H 21050 4750 50  0001 L CNN
 F 3 "https://www.pololu.com/product/2982" H 20950 5250 50  0001 C CNN
@@ -505,10 +397,10 @@ DIREC_3
 Text Label 20400 5900 2    50   ~ 0
 STEP_3
 $Comp
-L power:GND #PWR?
+L power:GND #PWR040
 U 1 1 61C9897B
 P 21400 6150
-F 0 "#PWR?" H 21400 5900 50  0001 C CNN
+F 0 "#PWR040" H 21400 5900 50  0001 C CNN
 F 1 "GND" H 21405 5977 50  0000 C CNN
 F 2 "" H 21400 6150 50  0001 C CNN
 F 3 "" H 21400 6150 50  0001 C CNN
@@ -536,10 +428,10 @@ Wire Wire Line
 Wire Wire Line
 	20450 6000 20400 6000
 $Comp
-L power:+15V #PWR?
+L power:+15V #PWR034
 U 1 1 61C9898B
 P 21350 4850
-F 0 "#PWR?" H 21350 4700 50  0001 C CNN
+F 0 "#PWR034" H 21350 4700 50  0001 C CNN
 F 1 "+15V" H 21365 5023 50  0000 C CNN
 F 2 "" H 21350 4850 50  0001 C CNN
 F 3 "" H 21350 4850 50  0001 C CNN
@@ -548,11 +440,11 @@ F 3 "" H 21350 4850 50  0001 C CNN
 $EndComp
 NoConn ~ 20450 5300
 Text Label 20400 5400 2    50   ~ 0
-M0_3
+M0
 Text Label 20400 5500 2    50   ~ 0
-M1_3
+M1
 Text Label 20400 5600 2    50   ~ 0
-M2_3
+M2
 Wire Wire Line
 	20100 5700 20450 5700
 Wire Wire Line
@@ -565,10 +457,10 @@ Wire Wire Line
 	20400 5600 20450 5600
 Connection ~ 20100 5700
 $Comp
-L Bayieeemax_Project-rescue:+5V-power-Bayieeemax_Project-rescue #PWR?
+L Bayieeemax_Project-rescue:+5V-power-Bayieeemax_Project-rescue #PWR028
 U 1 1 61C9899B
 P 20100 5700
-F 0 "#PWR?" H 20100 5550 50  0001 C CNN
+F 0 "#PWR028" H 20100 5550 50  0001 C CNN
 F 1 "+5V" H 20050 5850 50  0000 C CNN
 F 2 "" H 20100 5700 50  0001 C CNN
 F 3 "" H 20100 5700 50  0001 C CNN
@@ -576,58 +468,10 @@ F 3 "" H 20100 5700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x03_Odd_Even J?
-U 1 1 61C989A1
-P 22350 6050
-F 0 "J?" H 22400 6250 50  0000 C CNN
-F 1 "STP_RESOL/POWER_3" H 22400 5850 50  0000 C CNN
-F 2 "" H 22350 6050 50  0001 C CNN
-F 3 "~" H 22350 6050 50  0001 C CNN
-	1    22350 6050
-	1    0    0    -1  
-$EndComp
-Text Label 22100 6050 2    50   ~ 0
-M1_3
-Text Label 22100 6150 2    50   ~ 0
-M2_3
-Wire Wire Line
-	22100 6050 22150 6050
-Wire Wire Line
-	22100 6150 22150 6150
-$Comp
-L Bayieeemax_Project-rescue:+5V-power-Bayieeemax_Project-rescue #PWR?
-U 1 1 61C989AB
-P 22750 5900
-F 0 "#PWR?" H 22750 5750 50  0001 C CNN
-F 1 "+5V" H 22700 6050 50  0000 C CNN
-F 2 "" H 22750 5900 50  0001 C CNN
-F 3 "" H 22750 5900 50  0001 C CNN
-	1    22750 5900
-	1    0    0    -1  
-$EndComp
-Text Label 22100 5950 2    50   ~ 0
-M0_3
-Wire Wire Line
-	22100 5950 22150 5950
-Wire Wire Line
-	22650 5950 22750 5950
-Wire Wire Line
-	22750 5950 22750 5900
-Wire Wire Line
-	22750 5950 22750 6050
-Wire Wire Line
-	22750 6050 22650 6050
-Connection ~ 22750 5950
-Wire Wire Line
-	22650 6150 22750 6150
-Wire Wire Line
-	22750 6150 22750 6050
-Connection ~ 22750 6050
-$Comp
-L Connector_Generic:Conn_01x04 J?
+L Connector_Generic:Conn_01x04 J14
 U 1 1 61C989BB
 P 22550 7150
-F 0 "J?" H 22500 7350 50  0000 L CNN
+F 0 "J14" H 22500 7350 50  0000 L CNN
 F 1 "Motor4" H 22450 6850 50  0000 L CNN
 F 2 "" H 22550 7150 50  0001 C CNN
 F 3 "~" H 22550 7150 50  0001 C CNN
@@ -635,10 +479,10 @@ F 3 "~" H 22550 7150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR047
 U 1 1 61C989C1
 P 21750 6850
-F 0 "#PWR?" H 21750 6600 50  0001 C CNN
+F 0 "#PWR047" H 21750 6600 50  0001 C CNN
 F 1 "GND" V 21755 6722 50  0000 R CNN
 F 2 "" H 21750 6850 50  0001 C CNN
 F 3 "" H 21750 6850 50  0001 C CNN
@@ -646,10 +490,10 @@ F 3 "" H 21750 6850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C5
 U 1 1 61C989C7
 P 21550 6850
-F 0 "C?" V 21700 6850 50  0000 C CNN
+F 0 "C5" V 21700 6850 50  0000 C CNN
 F 1 "100uF" V 21400 6850 50  0000 C CNN
 F 2 "" H 21588 6700 50  0001 C CNN
 F 3 "~" H 21550 6850 50  0001 C CNN
@@ -692,10 +536,10 @@ Text Label 21300 7700 0    50   ~ 0
 MOTOR4_A2
 NoConn ~ 21250 7900
 $Comp
-L Bayieeemax_Project-rescue:Pololu_Breakout_DRV8825-Driver_Motor A?
+L Bayieeemax_Project-rescue:Pololu_Breakout_DRV8825-Driver_Motor A4
 U 1 1 61C989E0
 P 20850 7450
-F 0 "A?" H 20600 8000 50  0000 C CNN
+F 0 "A4" H 20600 8000 50  0000 C CNN
 F 1 "Pololu_Breakout_DRV8825_4" H 20750 6700 50  0000 C CNN
 F 2 "Module:Pololu_Breakout-16_15.2x20.3mm" H 21050 6650 50  0001 L CNN
 F 3 "https://www.pololu.com/product/2982" H 20950 7150 50  0001 C CNN
@@ -709,10 +553,10 @@ DIREC_4
 Text Label 20400 7800 2    50   ~ 0
 STEP_4
 $Comp
-L power:GND #PWR?
+L power:GND #PWR041
 U 1 1 61C989E9
 P 21400 8050
-F 0 "#PWR?" H 21400 7800 50  0001 C CNN
+F 0 "#PWR041" H 21400 7800 50  0001 C CNN
 F 1 "GND" H 21405 7877 50  0000 C CNN
 F 2 "" H 21400 8050 50  0001 C CNN
 F 3 "" H 21400 8050 50  0001 C CNN
@@ -740,10 +584,10 @@ Wire Wire Line
 Wire Wire Line
 	20450 7900 20400 7900
 $Comp
-L power:+15V #PWR?
+L power:+15V #PWR035
 U 1 1 61C989F9
 P 21350 6750
-F 0 "#PWR?" H 21350 6600 50  0001 C CNN
+F 0 "#PWR035" H 21350 6600 50  0001 C CNN
 F 1 "+15V" H 21365 6923 50  0000 C CNN
 F 2 "" H 21350 6750 50  0001 C CNN
 F 3 "" H 21350 6750 50  0001 C CNN
@@ -751,12 +595,6 @@ F 3 "" H 21350 6750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 20450 7200
-Text Label 20400 7300 2    50   ~ 0
-M0_4
-Text Label 20400 7400 2    50   ~ 0
-M1_4
-Text Label 20400 7500 2    50   ~ 0
-M2_4
 Wire Wire Line
 	20100 7600 20450 7600
 Wire Wire Line
@@ -769,71 +607,23 @@ Wire Wire Line
 	20400 7500 20450 7500
 Connection ~ 20100 7600
 $Comp
-L Bayieeemax_Project-rescue:+5V-power-Bayieeemax_Project-rescue #PWR?
+L Bayieeemax_Project-rescue:+5V-power-Bayieeemax_Project-rescue #PWR029
 U 1 1 61C98A09
 P 20100 7600
-F 0 "#PWR?" H 20100 7450 50  0001 C CNN
+F 0 "#PWR029" H 20100 7450 50  0001 C CNN
 F 1 "+5V" H 20050 7750 50  0000 C CNN
 F 2 "" H 20100 7600 50  0001 C CNN
 F 3 "" H 20100 7600 50  0001 C CNN
 	1    20100 7600
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector_Generic:Conn_02x03_Odd_Even J?
-U 1 1 61C98A0F
-P 22350 7950
-F 0 "J?" H 22400 8150 50  0000 C CNN
-F 1 "STP_RESOL/POWER_4" H 22400 7750 50  0000 C CNN
-F 2 "" H 22350 7950 50  0001 C CNN
-F 3 "~" H 22350 7950 50  0001 C CNN
-	1    22350 7950
-	1    0    0    -1  
-$EndComp
-Text Label 22100 7950 2    50   ~ 0
-M1_4
-Text Label 22100 8050 2    50   ~ 0
-M2_4
-Wire Wire Line
-	22100 7950 22150 7950
-Wire Wire Line
-	22100 8050 22150 8050
-$Comp
-L Bayieeemax_Project-rescue:+5V-power-Bayieeemax_Project-rescue #PWR?
-U 1 1 61C98A19
-P 22750 7800
-F 0 "#PWR?" H 22750 7650 50  0001 C CNN
-F 1 "+5V" H 22700 7950 50  0000 C CNN
-F 2 "" H 22750 7800 50  0001 C CNN
-F 3 "" H 22750 7800 50  0001 C CNN
-	1    22750 7800
-	1    0    0    -1  
-$EndComp
-Text Label 22100 7850 2    50   ~ 0
-M0_4
-Wire Wire Line
-	22100 7850 22150 7850
-Wire Wire Line
-	22650 7850 22750 7850
-Wire Wire Line
-	22750 7850 22750 7800
-Wire Wire Line
-	22750 7850 22750 7950
-Wire Wire Line
-	22750 7950 22650 7950
-Connection ~ 22750 7850
-Wire Wire Line
-	22650 8050 22750 8050
-Wire Wire Line
-	22750 8050 22750 7950
-Connection ~ 22750 7950
 Text Label 22300 5350 2    50   ~ 0
 MOTOR3_A1
 $Comp
-L Connector_Generic:Conn_01x04 J?
+L Connector_Generic:Conn_01x04 J15
 U 1 1 61D32895
 P 22550 8950
-F 0 "J?" H 22500 9150 50  0000 L CNN
+F 0 "J15" H 22500 9150 50  0000 L CNN
 F 1 "Motor5" H 22450 8650 50  0000 L CNN
 F 2 "" H 22550 8950 50  0001 C CNN
 F 3 "~" H 22550 8950 50  0001 C CNN
@@ -841,10 +631,10 @@ F 3 "~" H 22550 8950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR048
 U 1 1 61D3289B
 P 21750 8650
-F 0 "#PWR?" H 21750 8400 50  0001 C CNN
+F 0 "#PWR048" H 21750 8400 50  0001 C CNN
 F 1 "GND" V 21755 8522 50  0000 R CNN
 F 2 "" H 21750 8650 50  0001 C CNN
 F 3 "" H 21750 8650 50  0001 C CNN
@@ -852,10 +642,10 @@ F 3 "" H 21750 8650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C6
 U 1 1 61D328A1
 P 21550 8650
-F 0 "C?" V 21700 8650 50  0000 C CNN
+F 0 "C6" V 21700 8650 50  0000 C CNN
 F 1 "100uF" V 21400 8650 50  0000 C CNN
 F 2 "" H 21588 8500 50  0001 C CNN
 F 3 "~" H 21550 8650 50  0001 C CNN
@@ -896,10 +686,10 @@ Text Label 21300 9500 0    50   ~ 0
 MOTOR5_A2
 NoConn ~ 21250 9700
 $Comp
-L Bayieeemax_Project-rescue:Pololu_Breakout_DRV8825-Driver_Motor A?
+L Bayieeemax_Project-rescue:Pololu_Breakout_DRV8825-Driver_Motor A5
 U 1 1 61D328B9
 P 20850 9250
-F 0 "A?" H 20600 9800 50  0000 C CNN
+F 0 "A5" H 20600 9800 50  0000 C CNN
 F 1 "Pololu_Breakout_DRV8825_5" H 20750 8500 50  0000 C CNN
 F 2 "Module:Pololu_Breakout-16_15.2x20.3mm" H 21050 8450 50  0001 L CNN
 F 3 "https://www.pololu.com/product/2982" H 20950 8950 50  0001 C CNN
@@ -913,10 +703,10 @@ DIREC_5
 Text Label 20400 9600 2    50   ~ 0
 STEP_5
 $Comp
-L power:GND #PWR?
+L power:GND #PWR042
 U 1 1 61D328C2
 P 21400 9850
-F 0 "#PWR?" H 21400 9600 50  0001 C CNN
+F 0 "#PWR042" H 21400 9600 50  0001 C CNN
 F 1 "GND" H 21405 9677 50  0000 C CNN
 F 2 "" H 21400 9850 50  0001 C CNN
 F 3 "" H 21400 9850 50  0001 C CNN
@@ -944,10 +734,10 @@ Wire Wire Line
 Wire Wire Line
 	20450 9700 20400 9700
 $Comp
-L power:+15V #PWR?
+L power:+15V #PWR036
 U 1 1 61D328D2
 P 21350 8550
-F 0 "#PWR?" H 21350 8400 50  0001 C CNN
+F 0 "#PWR036" H 21350 8400 50  0001 C CNN
 F 1 "+15V" H 21365 8723 50  0000 C CNN
 F 2 "" H 21350 8550 50  0001 C CNN
 F 3 "" H 21350 8550 50  0001 C CNN
@@ -955,12 +745,6 @@ F 3 "" H 21350 8550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 20450 9000
-Text Label 20400 9100 2    50   ~ 0
-M0_5
-Text Label 20400 9200 2    50   ~ 0
-M1_5
-Text Label 20400 9300 2    50   ~ 0
-M2_5
 Wire Wire Line
 	20100 9400 20450 9400
 Wire Wire Line
@@ -973,10 +757,10 @@ Wire Wire Line
 	20400 9300 20450 9300
 Connection ~ 20100 9400
 $Comp
-L Bayieeemax_Project-rescue:+5V-power-Bayieeemax_Project-rescue #PWR?
+L Bayieeemax_Project-rescue:+5V-power-Bayieeemax_Project-rescue #PWR030
 U 1 1 61D328E2
 P 20100 9400
-F 0 "#PWR?" H 20100 9250 50  0001 C CNN
+F 0 "#PWR030" H 20100 9250 50  0001 C CNN
 F 1 "+5V" H 20050 9550 50  0000 C CNN
 F 2 "" H 20100 9400 50  0001 C CNN
 F 3 "" H 20100 9400 50  0001 C CNN
@@ -984,58 +768,10 @@ F 3 "" H 20100 9400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x03_Odd_Even J?
-U 1 1 61D328E8
-P 22350 9750
-F 0 "J?" H 22400 9950 50  0000 C CNN
-F 1 "STP_RESOL/POWER_5" H 22400 9550 50  0000 C CNN
-F 2 "" H 22350 9750 50  0001 C CNN
-F 3 "~" H 22350 9750 50  0001 C CNN
-	1    22350 9750
-	1    0    0    -1  
-$EndComp
-Text Label 22100 9750 2    50   ~ 0
-M1_5
-Text Label 22100 9850 2    50   ~ 0
-M2_5
-Wire Wire Line
-	22100 9750 22150 9750
-Wire Wire Line
-	22100 9850 22150 9850
-$Comp
-L Bayieeemax_Project-rescue:+5V-power-Bayieeemax_Project-rescue #PWR?
-U 1 1 61D328F2
-P 22750 9600
-F 0 "#PWR?" H 22750 9450 50  0001 C CNN
-F 1 "+5V" H 22700 9750 50  0000 C CNN
-F 2 "" H 22750 9600 50  0001 C CNN
-F 3 "" H 22750 9600 50  0001 C CNN
-	1    22750 9600
-	1    0    0    -1  
-$EndComp
-Text Label 22100 9650 2    50   ~ 0
-M0_5
-Wire Wire Line
-	22100 9650 22150 9650
-Wire Wire Line
-	22650 9650 22750 9650
-Wire Wire Line
-	22750 9650 22750 9600
-Wire Wire Line
-	22750 9650 22750 9750
-Wire Wire Line
-	22750 9750 22650 9750
-Connection ~ 22750 9650
-Wire Wire Line
-	22650 9850 22750 9850
-Wire Wire Line
-	22750 9850 22750 9750
-Connection ~ 22750 9750
-$Comp
-L Connector_Generic:Conn_01x04 J?
+L Connector_Generic:Conn_01x04 J16
 U 1 1 61D32902
 P 22550 10850
-F 0 "J?" H 22500 11050 50  0000 L CNN
+F 0 "J16" H 22500 11050 50  0000 L CNN
 F 1 "Motor6" H 22450 10550 50  0000 L CNN
 F 2 "" H 22550 10850 50  0001 C CNN
 F 3 "~" H 22550 10850 50  0001 C CNN
@@ -1043,10 +779,10 @@ F 3 "~" H 22550 10850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR049
 U 1 1 61D32908
 P 21750 10550
-F 0 "#PWR?" H 21750 10300 50  0001 C CNN
+F 0 "#PWR049" H 21750 10300 50  0001 C CNN
 F 1 "GND" V 21755 10422 50  0000 R CNN
 F 2 "" H 21750 10550 50  0001 C CNN
 F 3 "" H 21750 10550 50  0001 C CNN
@@ -1054,10 +790,10 @@ F 3 "" H 21750 10550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C7
 U 1 1 61D3290E
 P 21550 10550
-F 0 "C?" V 21700 10550 50  0000 C CNN
+F 0 "C7" V 21700 10550 50  0000 C CNN
 F 1 "100uF" V 21400 10550 50  0000 C CNN
 F 2 "" H 21588 10400 50  0001 C CNN
 F 3 "~" H 21550 10550 50  0001 C CNN
@@ -1100,10 +836,10 @@ Text Label 21300 11400 0    50   ~ 0
 MOTOR6_A2
 NoConn ~ 21250 11600
 $Comp
-L Bayieeemax_Project-rescue:Pololu_Breakout_DRV8825-Driver_Motor A?
+L Bayieeemax_Project-rescue:Pololu_Breakout_DRV8825-Driver_Motor A6
 U 1 1 61D32927
 P 20850 11150
-F 0 "A?" H 20600 11700 50  0000 C CNN
+F 0 "A6" H 20600 11700 50  0000 C CNN
 F 1 "Pololu_Breakout_DRV8825_6" H 20750 10400 50  0000 C CNN
 F 2 "Module:Pololu_Breakout-16_15.2x20.3mm" H 21050 10350 50  0001 L CNN
 F 3 "https://www.pololu.com/product/2982" H 20950 10850 50  0001 C CNN
@@ -1117,10 +853,10 @@ DIREC_6
 Text Label 20400 11500 2    50   ~ 0
 STEP_6
 $Comp
-L power:GND #PWR?
+L power:GND #PWR043
 U 1 1 61D32930
 P 21400 11750
-F 0 "#PWR?" H 21400 11500 50  0001 C CNN
+F 0 "#PWR043" H 21400 11500 50  0001 C CNN
 F 1 "GND" H 21405 11577 50  0000 C CNN
 F 2 "" H 21400 11750 50  0001 C CNN
 F 3 "" H 21400 11750 50  0001 C CNN
@@ -1148,10 +884,10 @@ Wire Wire Line
 Wire Wire Line
 	20450 11600 20400 11600
 $Comp
-L power:+15V #PWR?
+L power:+15V #PWR037
 U 1 1 61D32940
 P 21350 10450
-F 0 "#PWR?" H 21350 10300 50  0001 C CNN
+F 0 "#PWR037" H 21350 10300 50  0001 C CNN
 F 1 "+15V" H 21365 10623 50  0000 C CNN
 F 2 "" H 21350 10450 50  0001 C CNN
 F 3 "" H 21350 10450 50  0001 C CNN
@@ -1159,10 +895,6 @@ F 3 "" H 21350 10450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 20450 10900
-Text Label 20400 11100 2    50   ~ 0
-M1_6
-Text Label 20400 11200 2    50   ~ 0
-M2_6
 Wire Wire Line
 	20100 11300 20450 11300
 Wire Wire Line
@@ -1175,68 +907,18 @@ Wire Wire Line
 	20400 11200 20450 11200
 Connection ~ 20100 11300
 $Comp
-L Bayieeemax_Project-rescue:+5V-power-Bayieeemax_Project-rescue #PWR?
+L Bayieeemax_Project-rescue:+5V-power-Bayieeemax_Project-rescue #PWR031
 U 1 1 61D32950
 P 20100 11300
-F 0 "#PWR?" H 20100 11150 50  0001 C CNN
+F 0 "#PWR031" H 20100 11150 50  0001 C CNN
 F 1 "+5V" H 20050 11450 50  0000 C CNN
 F 2 "" H 20100 11300 50  0001 C CNN
 F 3 "" H 20100 11300 50  0001 C CNN
 	1    20100 11300
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector_Generic:Conn_02x03_Odd_Even J?
-U 1 1 61D32956
-P 22350 11650
-F 0 "J?" H 22400 11850 50  0000 C CNN
-F 1 "STP_RESOL/POWER_6" H 22400 11450 50  0000 C CNN
-F 2 "" H 22350 11650 50  0001 C CNN
-F 3 "~" H 22350 11650 50  0001 C CNN
-	1    22350 11650
-	1    0    0    -1  
-$EndComp
-Text Label 22100 11650 2    50   ~ 0
-M1_6
-Text Label 22100 11750 2    50   ~ 0
-M2_6
-Wire Wire Line
-	22100 11650 22150 11650
-Wire Wire Line
-	22100 11750 22150 11750
-$Comp
-L Bayieeemax_Project-rescue:+5V-power-Bayieeemax_Project-rescue #PWR?
-U 1 1 61D32960
-P 22750 11500
-F 0 "#PWR?" H 22750 11350 50  0001 C CNN
-F 1 "+5V" H 22700 11650 50  0000 C CNN
-F 2 "" H 22750 11500 50  0001 C CNN
-F 3 "" H 22750 11500 50  0001 C CNN
-	1    22750 11500
-	1    0    0    -1  
-$EndComp
-Text Label 22100 11550 2    50   ~ 0
-M0_6
-Wire Wire Line
-	22100 11550 22150 11550
-Wire Wire Line
-	22650 11550 22750 11550
-Wire Wire Line
-	22750 11550 22750 11500
-Wire Wire Line
-	22750 11550 22750 11650
-Wire Wire Line
-	22750 11650 22650 11650
-Connection ~ 22750 11550
-Wire Wire Line
-	22650 11750 22750 11750
-Wire Wire Line
-	22750 11750 22750 11650
-Connection ~ 22750 11650
 Text Label 22300 9050 2    50   ~ 0
 MOTOR5_A1
-Text Label 20400 11000 2    50   ~ 0
-M0_6
 Wire Wire Line
 	1850 2150 2050 2150
 Wire Wire Line
@@ -1246,10 +928,10 @@ Wire Wire Line
 Wire Wire Line
 	1850 1950 1850 1850
 $Comp
-L Device:C C?
+L Device:C C1
 U 1 1 61BFEE95
 P 2050 2000
-F 0 "C?" H 1935 1954 50  0000 R CNN
+F 0 "C1" H 1935 1954 50  0000 R CNN
 F 1 "1000uF" H 1935 2045 50  0000 R CNN
 F 2 "" H 2088 1850 50  0001 C CNN
 F 3 "~" H 2050 2000 50  0001 C CNN
@@ -1265,10 +947,10 @@ Wire Wire Line
 Wire Wire Line
 	1650 1950 1750 1950
 $Comp
-L power:+15V #PWR?
+L power:+15V #PWR01
 U 1 1 61B3D446
 P 1750 1850
-F 0 "#PWR?" H 1750 1700 50  0001 C CNN
+F 0 "#PWR01" H 1750 1700 50  0001 C CNN
 F 1 "+15V" H 1765 2023 50  0000 C CNN
 F 2 "" H 1750 1850 50  0001 C CNN
 F 3 "" H 1750 1850 50  0001 C CNN
@@ -1280,10 +962,10 @@ Wire Wire Line
 Wire Wire Line
 	1650 2050 1750 2050
 $Comp
-L Bayieeemax_Project-rescue:GND-power-Bayieeemax_Project-rescue #PWR?
+L Bayieeemax_Project-rescue:GND-power-Bayieeemax_Project-rescue #PWR02
 U 1 1 61B4EB23
 P 1750 2150
-F 0 "#PWR?" H 1750 1900 50  0001 C CNN
+F 0 "#PWR02" H 1750 1900 50  0001 C CNN
 F 1 "GND" H 1755 1977 50  0000 C CNN
 F 2 "" H 1750 2150 50  0001 C CNN
 F 3 "" H 1750 2150 50  0001 C CNN
@@ -1293,10 +975,10 @@ $EndComp
 Wire Wire Line
 	1750 1950 1750 1850
 $Comp
-L Connector_Generic:Conn_01x02 J?
+L Connector_Generic:Conn_01x02 J1
 U 1 1 61B46CC2
 P 1450 1950
-F 0 "J?" H 1400 2050 50  0000 L CNN
+F 0 "J1" H 1400 2050 50  0000 L CNN
 F 1 "Baterry_P.IN" H 1350 1750 50  0000 L CNN
 F 2 "" H 1450 1950 50  0001 C CNN
 F 3 "~" H 1450 1950 50  0001 C CNN
@@ -1304,10 +986,10 @@ F 3 "~" H 1450 1950 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:+15V #PWR?
+L power:+15V #PWR03
 U 1 1 61B3B744
 P 1750 11200
-F 0 "#PWR?" H 1750 11050 50  0001 C CNN
+F 0 "#PWR03" H 1750 11050 50  0001 C CNN
 F 1 "+15V" H 1765 11373 50  0000 C CNN
 F 2 "" H 1750 11200 50  0001 C CNN
 F 3 "" H 1750 11200 50  0001 C CNN
@@ -1327,10 +1009,10 @@ Wire Wire Line
 Wire Wire Line
 	1950 13550 1950 13450
 $Comp
-L Bayieeemax_Project-rescue:GND-power-Bayieeemax_Project-rescue #PWR?
+L Bayieeemax_Project-rescue:GND-power-Bayieeemax_Project-rescue #PWR05
 U 1 1 61B364D4
 P 1950 13550
-F 0 "#PWR?" H 1950 13300 50  0001 C CNN
+F 0 "#PWR05" H 1950 13300 50  0001 C CNN
 F 1 "GND" H 1955 13377 50  0000 C CNN
 F 2 "" H 1950 13550 50  0001 C CNN
 F 3 "" H 1950 13550 50  0001 C CNN
@@ -1342,10 +1024,10 @@ NoConn ~ 2150 13050
 Wire Wire Line
 	1950 12950 2150 12950
 $Comp
-L Bayieeemax_Project-rescue:+5V-power-Bayieeemax_Project-rescue #PWR?
+L Bayieeemax_Project-rescue:+5V-power-Bayieeemax_Project-rescue #PWR04
 U 1 1 61B33460
 P 1950 12950
-F 0 "#PWR?" H 1950 12800 50  0001 C CNN
+F 0 "#PWR04" H 1950 12800 50  0001 C CNN
 F 1 "+5V" H 1965 13123 50  0000 C CNN
 F 2 "" H 1950 12950 50  0001 C CNN
 F 3 "" H 1950 12950 50  0001 C CNN
@@ -1353,10 +1035,10 @@ F 3 "" H 1950 12950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x06 J?
+L Connector_Generic:Conn_01x06 J2
 U 1 1 61B31C4D
 P 2350 13150
-F 0 "J?" H 2300 13450 50  0000 L CNN
+F 0 "J2" H 2300 13450 50  0000 L CNN
 F 1 "USB_TTL" H 2300 12750 50  0000 L CNN
 F 2 "" H 2350 13150 50  0001 C CNN
 F 3 "~" H 2350 13150 50  0001 C CNN
@@ -1364,10 +1046,10 @@ F 3 "~" H 2350 13150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Bayieeemax_Project-rescue:GND-power-Bayieeemax_Project-rescue #PWR?
+L Bayieeemax_Project-rescue:GND-power-Bayieeemax_Project-rescue #PWR010
 U 1 1 61B301B7
 P 4550 12050
-F 0 "#PWR?" H 4550 11800 50  0001 C CNN
+F 0 "#PWR010" H 4550 11800 50  0001 C CNN
 F 1 "GND" H 4555 11877 50  0000 C CNN
 F 2 "" H 4550 12050 50  0001 C CNN
 F 3 "" H 4550 12050 50  0001 C CNN
@@ -1384,10 +1066,10 @@ Wire Wire Line
 Wire Wire Line
 	4550 11300 4550 11350
 $Comp
-L Device:R R?
+L Device:R R2
 U 1 1 61B29CFD
 P 4550 11900
-F 0 "R?" H 4620 11946 50  0000 L CNN
+F 0 "R2" H 4620 11946 50  0000 L CNN
 F 1 "3.3K" H 4620 11855 50  0000 L CNN
 F 2 "" V 4480 11900 50  0001 C CNN
 F 3 "~" H 4550 11900 50  0001 C CNN
@@ -1395,10 +1077,10 @@ F 3 "~" H 4550 11900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R1
 U 1 1 61B297D5
 P 4550 11500
-F 0 "R?" H 4620 11546 50  0000 L CNN
+F 0 "R1" H 4620 11546 50  0000 L CNN
 F 1 "1.7K" H 4620 11455 50  0000 L CNN
 F 2 "" V 4480 11500 50  0001 C CNN
 F 3 "~" H 4550 11500 50  0001 C CNN
@@ -1414,10 +1096,10 @@ USB_Raspbery_charge\n
 Wire Wire Line
 	4800 11400 4800 11600
 $Comp
-L Bayieeemax_Project-rescue:GND-power-Bayieeemax_Project-rescue #PWR?
+L Bayieeemax_Project-rescue:GND-power-Bayieeemax_Project-rescue #PWR012
 U 1 1 61B26BD0
 P 4800 11600
-F 0 "#PWR?" H 4800 11350 50  0001 C CNN
+F 0 "#PWR012" H 4800 11350 50  0001 C CNN
 F 1 "GND" H 4805 11427 50  0000 C CNN
 F 2 "" H 4800 11600 50  0001 C CNN
 F 3 "" H 4800 11600 50  0001 C CNN
@@ -1425,10 +1107,10 @@ F 3 "" H 4800 11600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Bayieeemax_Project-rescue:+5V-power-Bayieeemax_Project-rescue #PWR?
+L Bayieeemax_Project-rescue:+5V-power-Bayieeemax_Project-rescue #PWR011
 U 1 1 61B26858
 P 4800 11200
-F 0 "#PWR?" H 4800 11050 50  0001 C CNN
+F 0 "#PWR011" H 4800 11050 50  0001 C CNN
 F 1 "+5V" H 4815 11373 50  0000 C CNN
 F 2 "" H 4800 11200 50  0001 C CNN
 F 3 "" H 4800 11200 50  0001 C CNN
@@ -1436,10 +1118,10 @@ F 3 "" H 4800 11200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x03 J?
+L Connector_Generic:Conn_01x03 J4
 U 1 1 61B26139
 P 5000 11300
-F 0 "J?" H 5080 11342 50  0000 L CNN
+F 0 "J4" H 5080 11342 50  0000 L CNN
 F 1 "ACS_SENSOR" H 5080 11251 50  0000 L CNN
 F 2 "" H 5000 11300 50  0001 C CNN
 F 3 "~" H 5000 11300 50  0001 C CNN
@@ -1447,10 +1129,10 @@ F 3 "~" H 5000 11300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Bayieeemax_Project-rescue:GND-power-Bayieeemax_Project-rescue #PWR?
+L Bayieeemax_Project-rescue:GND-power-Bayieeemax_Project-rescue #PWR09
 U 1 1 61B238D2
 P 3150 11300
-F 0 "#PWR?" H 3150 11050 50  0001 C CNN
+F 0 "#PWR09" H 3150 11050 50  0001 C CNN
 F 1 "GND" H 3155 11127 50  0000 C CNN
 F 2 "" H 3150 11300 50  0001 C CNN
 F 3 "" H 3150 11300 50  0001 C CNN
@@ -1458,10 +1140,10 @@ F 3 "" H 3150 11300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Bayieeemax_Project-rescue:+5V-power-Bayieeemax_Project-rescue #PWR?
+L Bayieeemax_Project-rescue:+5V-power-Bayieeemax_Project-rescue #PWR08
 U 1 1 61B21353
 P 3150 11200
-F 0 "#PWR?" H 3150 11050 50  0001 C CNN
+F 0 "#PWR08" H 3150 11050 50  0001 C CNN
 F 1 "+5V" H 3165 11373 50  0000 C CNN
 F 2 "" H 3150 11200 50  0001 C CNN
 F 3 "" H 3150 11200 50  0001 C CNN
@@ -1469,10 +1151,10 @@ F 3 "" H 3150 11200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 J?
+L Connector_Generic:Conn_01x02 J3
 U 1 1 61B205AF
 P 3350 11200
-F 0 "J?" H 3430 11192 50  0000 L CNN
+F 0 "J3" H 3430 11192 50  0000 L CNN
 F 1 "Raspberry_POWER_IN" H 3430 11101 50  0000 L CNN
 F 2 "" H 3350 11200 50  0001 C CNN
 F 3 "~" H 3350 11200 50  0001 C CNN
@@ -1482,10 +1164,10 @@ $EndComp
 NoConn ~ 2750 11400
 NoConn ~ 1750 11400
 $Comp
-L Bayieeemax_Project-rescue:GND-power-Bayieeemax_Project-rescue #PWR?
+L Bayieeemax_Project-rescue:GND-power-Bayieeemax_Project-rescue #PWR06
 U 1 1 619520C4
 P 2250 11900
-F 0 "#PWR?" H 2250 11650 50  0001 C CNN
+F 0 "#PWR06" H 2250 11650 50  0001 C CNN
 F 1 "GND" H 2255 11727 50  0000 C CNN
 F 2 "" H 2250 11900 50  0001 C CNN
 F 3 "" H 2250 11900 50  0001 C CNN
@@ -1493,10 +1175,10 @@ F 3 "" H 2250 11900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Bayieeemax_Project-rescue:+5V-power-Bayieeemax_Project-rescue #PWR?
+L Bayieeemax_Project-rescue:+5V-power-Bayieeemax_Project-rescue #PWR07
 U 1 1 6194F30C
 P 2750 11200
-F 0 "#PWR?" H 2750 11050 50  0001 C CNN
+F 0 "#PWR07" H 2750 11050 50  0001 C CNN
 F 1 "+5V" H 2765 11373 50  0000 C CNN
 F 2 "" H 2750 11200 50  0001 C CNN
 F 3 "" H 2750 11200 50  0001 C CNN
@@ -1504,10 +1186,10 @@ F 3 "" H 2750 11200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Bayieeemax_Project-rescue:XL4015-XL4015 VR?
+L Bayieeemax_Project-rescue:XL4015-XL4015 VR1
 U 1 1 61931A63
 P 2250 11400
-F 0 "VR?" H 2250 11867 50  0000 C CNN
+F 0 "VR1" H 2250 11867 50  0000 C CNN
 F 1 "XL4015" H 2250 11776 50  0000 C CNN
 F 2 "CONV_XL4015" H 2350 11000 50  0001 L BNN
 F 3 "" H 2250 11400 50  0001 L BNN
@@ -1523,10 +1205,10 @@ Wire Wire Line
 Wire Wire Line
 	9900 6900 9900 6850
 $Comp
-L Bayieeemax_Project-rescue:+5V-power-Bayieeemax_Project-rescue #PWR?
+L Bayieeemax_Project-rescue:+5V-power-Bayieeemax_Project-rescue #PWR016
 U 1 1 61B8712B
 P 9900 6900
-F 0 "#PWR?" H 9900 6750 50  0001 C CNN
+F 0 "#PWR016" H 9900 6750 50  0001 C CNN
 F 1 "+5V" H 9915 7073 50  0000 C CNN
 F 2 "" H 9900 6900 50  0001 C CNN
 F 3 "" H 9900 6900 50  0001 C CNN
@@ -1536,10 +1218,10 @@ $EndComp
 Wire Wire Line
 	10050 6750 9750 6750
 $Comp
-L power:+3V3 #PWR?
+L power:+3V3 #PWR015
 U 1 1 61B84210
 P 9750 6750
-F 0 "#PWR?" H 9750 6600 50  0001 C CNN
+F 0 "#PWR015" H 9750 6600 50  0001 C CNN
 F 1 "+3V3" H 9765 6923 50  0000 C CNN
 F 2 "" H 9750 6750 50  0001 C CNN
 F 3 "" H 9750 6750 50  0001 C CNN
@@ -1551,10 +1233,10 @@ Wire Wire Line
 Wire Wire Line
 	11450 6950 11550 6950
 $Comp
-L Bayieeemax_Project-rescue:GND-power-Bayieeemax_Project-rescue #PWR?
+L Bayieeemax_Project-rescue:GND-power-Bayieeemax_Project-rescue #PWR020
 U 1 1 61B826FC
 P 11550 7000
-F 0 "#PWR?" H 11550 6750 50  0001 C CNN
+F 0 "#PWR020" H 11550 6750 50  0001 C CNN
 F 1 "GND" H 11555 6827 50  0000 C CNN
 F 2 "" H 11550 7000 50  0001 C CNN
 F 3 "" H 11550 7000 50  0001 C CNN
@@ -1566,10 +1248,10 @@ Wire Wire Line
 Wire Wire Line
 	10400 7300 10650 7300
 $Comp
-L power:+3V3 #PWR?
+L power:+3V3 #PWR017
 U 1 1 61B8090B
 P 10400 7300
-F 0 "#PWR?" H 10400 7150 50  0001 C CNN
+F 0 "#PWR017" H 10400 7150 50  0001 C CNN
 F 1 "+3V3" H 10415 7473 50  0000 C CNN
 F 2 "" H 10400 7300 50  0001 C CNN
 F 3 "" H 10400 7300 50  0001 C CNN
@@ -1581,10 +1263,10 @@ Wire Wire Line
 Wire Wire Line
 	10850 7250 10850 7300
 $Comp
-L Bayieeemax_Project-rescue:GND-power-Bayieeemax_Project-rescue #PWR?
+L Bayieeemax_Project-rescue:GND-power-Bayieeemax_Project-rescue #PWR019
 U 1 1 61B7E584
 P 10850 7300
-F 0 "#PWR?" H 10850 7050 50  0001 C CNN
+F 0 "#PWR019" H 10850 7050 50  0001 C CNN
 F 1 "GND" H 10855 7127 50  0000 C CNN
 F 2 "" H 10850 7300 50  0001 C CNN
 F 3 "" H 10850 7300 50  0001 C CNN
@@ -1592,10 +1274,10 @@ F 3 "" H 10850 7300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Bayieeemax_Project-rescue:GND-power-Bayieeemax_Project-rescue #PWR?
+L Bayieeemax_Project-rescue:GND-power-Bayieeemax_Project-rescue #PWR018
 U 1 1 61B7D61F
 P 10750 7300
-F 0 "#PWR?" H 10750 7050 50  0001 C CNN
+F 0 "#PWR018" H 10750 7050 50  0001 C CNN
 F 1 "GND" H 10755 7127 50  0000 C CNN
 F 2 "" H 10750 7300 50  0001 C CNN
 F 3 "" H 10750 7300 50  0001 C CNN
@@ -1603,10 +1285,10 @@ F 3 "" H 10750 7300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Bayieeemax_Project-rescue:ChinaBluePill U?
+L Bayieeemax_Project-rescue:ChinaBluePill U2
 U 1 1 61B6C4D7
 P 10750 5700
-F 0 "U?" H 10750 6515 50  0000 C CNN
+F 0 "U2" H 10750 6515 50  0000 C CNN
 F 1 "ChinaBluePill" H 10750 6424 50  0000 C CNN
 F 2 "" H 10750 5700 50  0001 C CNN
 F 3 "" H 10750 5700 50  0001 C CNN
@@ -1622,10 +1304,10 @@ Wire Wire Line
 Text Label 9200 9900 2    50   ~ 0
 SLC_MPU9250
 $Comp
-L Connector_Generic:Conn_01x02 J?
+L Connector_Generic:Conn_01x02 J5
 U 1 1 61EBBA70
 P 9450 9900
-F 0 "J?" H 9400 10000 50  0000 L CNN
+F 0 "J5" H 9400 10000 50  0000 L CNN
 F 1 "I2C_MPU_Raspberry" H 9250 9700 50  0000 L CNN
 F 2 "" H 9450 9900 50  0001 C CNN
 F 3 "~" H 9450 9900 50  0001 C CNN
@@ -1639,10 +1321,10 @@ Wire Wire Line
 Wire Wire Line
 	8200 8850 8200 8750
 $Comp
-L power:+3.3V #PWR?
+L power:+3.3V #PWR013
 U 1 1 61D11C3D
 P 8200 8750
-F 0 "#PWR?" H 8200 8600 50  0001 C CNN
+F 0 "#PWR013" H 8200 8600 50  0001 C CNN
 F 1 "+3.3V" H 8215 8923 50  0000 C CNN
 F 2 "" H 8200 8750 50  0001 C CNN
 F 3 "" H 8200 8750 50  0001 C CNN
@@ -1654,10 +1336,10 @@ Wire Wire Line
 Wire Wire Line
 	8100 10150 8200 10150
 $Comp
-L Bayieeemax_Project-rescue:GND-power-Bayieeemax_Project-rescue #PWR?
+L Bayieeemax_Project-rescue:GND-power-Bayieeemax_Project-rescue #PWR014
 U 1 1 61CD8A04
 P 8200 10200
-F 0 "#PWR?" H 8200 9950 50  0001 C CNN
+F 0 "#PWR014" H 8200 9950 50  0001 C CNN
 F 1 "GND" H 8205 10027 50  0000 C CNN
 F 2 "" H 8200 10200 50  0001 C CNN
 F 3 "" H 8200 10200 50  0001 C CNN
@@ -1673,10 +1355,10 @@ Wire Wire Line
 Text Label 6400 9450 2    50   ~ 0
 SLC_MPU9250
 $Comp
-L Bayieeemax_Project-rescue:MPU-9250 U?
+L Bayieeemax_Project-rescue:MPU-9250 U1
 U 1 1 61C9EC7E
 P 7300 9550
-F 0 "U?" H 7300 10515 50  0000 C CNN
+F 0 "U1" H 7300 10515 50  0000 C CNN
 F 1 "MPU-9250" H 7300 10424 50  0000 C CNN
 F 2 "QFN40P300X300X105-24N" H 7350 10350 50  0001 L BNN
 F 3 "" H 7400 9850 50  0001 L BNN
@@ -1695,10 +1377,10 @@ SDA_MAX3100
 Text Label 13700 10050 2    50   ~ 0
 SCL_MAX3100
 $Comp
-L Bayieeemax_Project-rescue:MAX30100EFD+ U?
+L Bayieeemax_Project-rescue:MAX30100EFD+ U3
 U 1 1 620336FF
 P 11950 9400
-F 0 "U?" H 11950 10017 50  0000 C CNN
+F 0 "U3" H 11950 10017 50  0000 C CNN
 F 1 "MAX30100EFD+" H 11950 9926 50  0000 C CNN
 F 2 "LGA14R80P2X7_560X280X130" H 11700 8750 50  0001 L BNN
 F 3 "" H 11950 9400 50  0001 L BNN
@@ -1710,42 +1392,19 @@ Wire Wire Line
 	12800 9050 12800 9000
 Wire Wire Line
 	12650 9050 12800 9050
-$Comp
-L power:+3.3V #PWR?
-U 1 1 62033707
-P 12800 9000
-F 0 "#PWR?" H 12800 8850 50  0001 C CNN
-F 1 "+3.3V" H 12815 9173 50  0000 C CNN
-F 2 "" H 12800 9000 50  0001 C CNN
-F 3 "" H 12800 9000 50  0001 C CNN
-	1    12800 9000
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	11250 9650 11200 9650
 Wire Wire Line
 	11200 9450 11250 9450
-Wire Wire Line
-	11250 9150 11200 9150
-Wire Wire Line
-	12700 9450 12650 9450
-Wire Wire Line
-	12650 9350 12700 9350
-Text Label 12700 9450 0    50   ~ 0
-RD
-Text Label 12700 9350 0    50   ~ 0
-IRO
 Text Label 11200 9450 2    50   ~ 0
 SCL_MAX3100
 Text Label 11200 9650 2    50   ~ 0
 SDA_MAX3100
-Text Label 11200 9150 2    50   ~ 0
-~INT
 $Comp
-L Connector_Generic:Conn_01x02 J?
+L Connector_Generic:Conn_01x02 J8
 U 1 1 62033717
 P 13950 10050
-F 0 "J?" H 13900 10150 50  0000 L CNN
+F 0 "J8" H 13900 10150 50  0000 L CNN
 F 1 "I2C_MAX30100_Raspberry" H 13750 9850 50  0000 L CNN
 F 2 "" H 13950 10050 50  0001 C CNN
 F 3 "~" H 13950 10050 50  0001 C CNN
@@ -1757,10 +1416,10 @@ Wire Wire Line
 Wire Wire Line
 	12650 9750 12850 9750
 $Comp
-L Bayieeemax_Project-rescue:GND-power-Bayieeemax_Project-rescue #PWR?
+L Bayieeemax_Project-rescue:GND-power-Bayieeemax_Project-rescue #PWR022
 U 1 1 6203371F
 P 12850 9800
-F 0 "#PWR?" H 12850 9550 50  0001 C CNN
+F 0 "#PWR022" H 12850 9550 50  0001 C CNN
 F 1 "GND" H 12855 9627 50  0000 C CNN
 F 2 "" H 12850 9800 50  0001 C CNN
 F 3 "" H 12850 9800 50  0001 C CNN
@@ -1776,57 +1435,57 @@ TX_GPS
 Text Label 10000 5450 2    50   ~ 0
 RX_GPS
 Wire Wire Line
-	7400 12100 7500 12100
+	10350 11950 10450 11950
 Wire Wire Line
-	7500 12000 7400 12000
-Text Label 7400 12100 2    50   ~ 0
+	10450 11850 10350 11850
+Text Label 10350 11950 2    50   ~ 0
 TX_GPS
-Text Label 7400 12000 2    50   ~ 0
+Text Label 10350 11850 2    50   ~ 0
 RX_GPS
 $Comp
-L Connector_Generic:Conn_01x02 J?
+L Connector_Generic:Conn_01x02 J7
 U 1 1 61DAB257
-P 7700 12000
-F 0 "J?" H 7650 12100 50  0000 L CNN
-F 1 "TTL_Raspberry" H 7500 11800 50  0000 L CNN
-F 2 "" H 7700 12000 50  0001 C CNN
-F 3 "~" H 7700 12000 50  0001 C CNN
-	1    7700 12000
+P 10650 11850
+F 0 "J7" H 10600 11950 50  0000 L CNN
+F 1 "TTL_Raspberry" H 10450 11650 50  0000 L CNN
+F 2 "" H 10650 11850 50  0001 C CNN
+F 3 "~" H 10650 11850 50  0001 C CNN
+	1    10650 11850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7400 11650 7500 11650
+	10350 11500 10450 11500
 Wire Wire Line
-	7500 11550 7400 11550
+	10450 11400 10350 11400
 Wire Wire Line
-	7400 11450 7500 11450
+	10350 11300 10450 11300
 Wire Wire Line
-	7500 11350 7400 11350
+	10450 11200 10350 11200
 Wire Wire Line
-	7500 11250 7400 11250
+	10450 11100 10350 11100
 Wire Wire Line
-	7400 11150 7500 11150
-Text Label 7400 11650 2    50   ~ 0
+	10350 11000 10450 11000
+Text Label 10350 11500 2    50   ~ 0
 PPS_GPS
-Text Label 7400 11550 2    50   ~ 0
+Text Label 10350 11400 2    50   ~ 0
 VCC3V3_GPS
-Text Label 7400 11450 2    50   ~ 0
+Text Label 10350 11300 2    50   ~ 0
 TX_GPS
-Text Label 7400 11350 2    50   ~ 0
+Text Label 10350 11200 2    50   ~ 0
 RX_GPS
-Text Label 7400 11250 2    50   ~ 0
+Text Label 10350 11100 2    50   ~ 0
 GND_GPS
-Text Label 7400 11150 2    50   ~ 0
+Text Label 10350 11000 2    50   ~ 0
 EN_GPS
 $Comp
-L Connector_Generic:Conn_01x06 J?
+L Connector_Generic:Conn_01x06 J6
 U 1 1 61C2171F
-P 7700 11350
-F 0 "J?" H 7650 11650 50  0000 L CNN
-F 1 "GPS_Conn" H 7550 10950 50  0000 L CNN
-F 2 "" H 7700 11350 50  0001 C CNN
-F 3 "~" H 7700 11350 50  0001 C CNN
-	1    7700 11350
+P 10650 11200
+F 0 "J6" H 10600 11500 50  0000 L CNN
+F 1 "GPS_Conn" H 10500 10800 50  0000 L CNN
+F 2 "" H 10650 11200 50  0001 C CNN
+F 3 "~" H 10650 11200 50  0001 C CNN
+	1    10650 11200
 	1    0    0    -1  
 $EndComp
 Text Label 10000 5950 2    50   ~ 0
@@ -1878,4 +1537,179 @@ Text Notes 9050 6050 0    50   ~ 0
 5V pwm tolerant\n
 Text Notes 11800 5750 0    50   ~ 0
 5V pwm tolerant\n
+Text Label 20400 1700 2    50   ~ 0
+M0
+Text Label 20400 1800 2    50   ~ 0
+M1
+Text Label 20400 1900 2    50   ~ 0
+M2
+Text Label 20400 3600 2    50   ~ 0
+M0
+Text Label 20400 3700 2    50   ~ 0
+M1
+Text Label 20400 3800 2    50   ~ 0
+M2
+Text Label 20400 7300 2    50   ~ 0
+M0
+Text Label 20400 7400 2    50   ~ 0
+M1
+Text Label 20400 7500 2    50   ~ 0
+M2
+Text Label 20400 9100 2    50   ~ 0
+M0
+Text Label 20400 9200 2    50   ~ 0
+M1
+Text Label 20400 9300 2    50   ~ 0
+M2
+Text Label 20400 11000 2    50   ~ 0
+M0
+Text Label 20400 11100 2    50   ~ 0
+M1
+Text Label 20400 11200 2    50   ~ 0
+M2
+$Comp
+L Connector_Generic:Conn_02x03_Odd_Even J10
+U 1 1 625FB787
+P 18900 5250
+F 0 "J10" H 18950 5450 50  0000 C CNN
+F 1 "MicroStep_1/32" H 18950 5050 50  0000 C CNN
+F 2 "" H 18900 5250 50  0001 C CNN
+F 3 "~" H 18900 5250 50  0001 C CNN
+	1    18900 5250
+	1    0    0    -1  
+$EndComp
+Text Label 18650 5150 2    50   ~ 0
+M0
+Text Label 18650 5250 2    50   ~ 0
+M1
+Text Label 18650 5350 2    50   ~ 0
+M2
+Wire Wire Line
+	18650 5150 18700 5150
+Wire Wire Line
+	18700 5250 18650 5250
+Wire Wire Line
+	18650 5350 18700 5350
+$Comp
+L Bayieeemax_Project-rescue:+5V-power-Bayieeemax_Project-rescue #PWR025
+U 1 1 62680450
+P 19300 5100
+F 0 "#PWR025" H 19300 4950 50  0001 C CNN
+F 1 "+5V" H 19250 5250 50  0000 C CNN
+F 2 "" H 19300 5100 50  0001 C CNN
+F 3 "" H 19300 5100 50  0001 C CNN
+	1    19300 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	19300 5100 19300 5150
+Wire Wire Line
+	19300 5150 19200 5150
+Wire Wire Line
+	19200 5250 19300 5250
+Wire Wire Line
+	19300 5250 19300 5150
+Connection ~ 19300 5150
+Connection ~ 19300 5250
+Wire Wire Line
+	19300 5250 19300 5350
+Wire Wire Line
+	19200 5350 19300 5350
+$Comp
+L Connector_Generic:Conn_02x03_Odd_Even J9
+U 1 1 626A282A
+P 18900 4500
+F 0 "J9" H 18950 4700 50  0000 C CNN
+F 1 "MicroStep_1/16" H 18950 4300 50  0000 C CNN
+F 2 "" H 18900 4500 50  0001 C CNN
+F 3 "~" H 18900 4500 50  0001 C CNN
+	1    18900 4500
+	1    0    0    -1  
+$EndComp
+Text Label 18650 4400 2    50   ~ 0
+M0
+Text Label 18650 4500 2    50   ~ 0
+M1
+Text Label 18650 4600 2    50   ~ 0
+M2
+Wire Wire Line
+	18650 4400 18700 4400
+Wire Wire Line
+	18700 4500 18650 4500
+Wire Wire Line
+	18650 4600 18700 4600
+Wire Wire Line
+	19200 4600 19300 4600
+$Comp
+L Bayieeemax_Project-rescue:+5V-power-Bayieeemax_Project-rescue #PWR024
+U 1 1 626A2836
+P 19300 4650
+F 0 "#PWR024" H 19300 4500 50  0001 C CNN
+F 1 "+5V" H 19250 4800 50  0000 C CNN
+F 2 "" H 19300 4650 50  0001 C CNN
+F 3 "" H 19300 4650 50  0001 C CNN
+	1    19300 4650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	19300 4650 19300 4600
+$Comp
+L Bayieeemax_Project-rescue:GND-power-Bayieeemax_Project-rescue #PWR023
+U 1 1 6273083F
+P 19300 4350
+F 0 "#PWR023" H 19300 4100 50  0001 C CNN
+F 1 "GND" H 19305 4177 50  0000 C CNN
+F 2 "" H 19300 4350 50  0001 C CNN
+F 3 "" H 19300 4350 50  0001 C CNN
+	1    19300 4350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	19200 4400 19300 4400
+Wire Wire Line
+	19300 4400 19300 4350
+Wire Wire Line
+	19200 4500 19300 4500
+Wire Wire Line
+	19300 4500 19300 4400
+Connection ~ 19300 4400
+Text Label 10000 6250 2    50   ~ 0
+DIREC_1
+Text Label 10000 6350 2    50   ~ 0
+DIREC_2
+Text Label 10000 6450 2    50   ~ 0
+DIREC_3
+Text Label 11500 5350 0    50   ~ 0
+DIREC_4
+Text Label 11500 5450 0    50   ~ 0
+DIREC_5
+Text Label 11500 5550 0    50   ~ 0
+DIREC_6
+Wire Wire Line
+	10000 6250 10050 6250
+Wire Wire Line
+	10000 6350 10050 6350
+Wire Wire Line
+	10000 6450 10050 6450
+Wire Wire Line
+	11500 5350 11450 5350
+Wire Wire Line
+	11450 5450 11500 5450
+Wire Wire Line
+	11500 5550 11450 5550
+$Comp
+L power:+3V0 #PWR021
+U 1 1 62AE2936
+P 12800 9000
+F 0 "#PWR021" H 12800 8850 50  0001 C CNN
+F 1 "+3V0" H 12815 9173 50  0000 C CNN
+F 2 "" H 12800 9000 50  0001 C CNN
+F 3 "" H 12800 9000 50  0001 C CNN
+	1    12800 9000
+	1    0    0    -1  
+$EndComp
+NoConn ~ 12650 9350
+NoConn ~ 12650 9450
+NoConn ~ 12650 9650
+NoConn ~ 11250 9150
 $EndSCHEMATC
