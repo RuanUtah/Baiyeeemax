@@ -1,4 +1,53 @@
-19405829514922893
+19417334045561086
+Baiyeeemax
+BluePill_STM32F103C
+STM32F103C8 BluePill board
+
+0
+40
+40
+Baiyeeemax
+CAP_EEEFN1E101UP
+
+
+0
+2
+2
+Baiyeeemax
+DCDC_stepdown_75W-XL4015
+
+
+0
+4
+1
+Baiyeeemax
+IC_DRV8825_STEPPER_MOTOR_DRIVER_CARRIER
+
+
+0
+16
+16
+Baiyeeemax
+MAX30100
+
+
+0
+0
+0
+Baiyeeemax
+QFN40P300X300X105-24N
+
+
+0
+24
+24
+Baiyeeemax
+TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal
+Terminal Block Phoenix PT-1,5-2-5.0-H, 2 pins, pitch 5mm, size 10x9mm^2, drill diamater 1.3mm, pad diameter 2.6mm, see http://www.mouser.com/ds/2/324/ItemDetail_1935161-922578.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_Phoenix
+THT Terminal Block Phoenix PT-1,5-2-5.0-H pitch 5mm size 10x9mm^2 drill 1.3mm pad 2.6mm
+0
+2
+2
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)

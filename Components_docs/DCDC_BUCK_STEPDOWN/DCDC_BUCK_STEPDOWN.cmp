@@ -1,0 +1,123 @@
+Cmp-Mod V01 Created by PcbNew   date = ter 08 fev 2022 13:49:48
+
+BeginCmp
+TimeStamp = 618DD861
+Path = /618C2885
+Reference = U1;
+ValeurCmp = LM2575-3.3BU;
+IdModule  = Package_TO_SOT_SMD:TO-263-5_TabPin3;
+EndCmp
+
+BeginCmp
+TimeStamp = 618DD570
+Path = /618DB6A6
+Reference = R2;
+ValeurCmp = 10K;
+IdModule  = Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 618DD559
+Path = /618DBB77
+Reference = R1;
+ValeurCmp = 3.3K;
+IdModule  = Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 618DD548
+Path = /618D69B8
+Reference = L1;
+ValeurCmp = 47uH;
+IdModule  = Inductor_SMD:L_12x12mm_H8mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 618DD4F9
+Path = /619B0944
+Reference = OUT-;
+ValeurCmp = Conn_01x01_Female;
+IdModule  = Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 618DDA31
+Path = /6197AEB6
+Reference = OUT+;
+ValeurCmp = Conn_01x01_Female;
+IdModule  = Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 618DE3EA
+Path = /618DFA39
+Reference = IN-;
+ValeurCmp = Conn_01x01_Female;
+IdModule  = Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 618DE3CC
+Path = /618DE06D
+Reference = IN+;
+ValeurCmp = Conn_01x01_Female;
+IdModule  = Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 618DD4CD
+Path = /618D1233
+Reference = D1;
+ValeurCmp = MBRD1045G;
+IdModule  = Diode_SMD:D_1206_3216Metric_Castellated;
+EndCmp
+
+BeginCmp
+TimeStamp = 618DD4BA
+Path = /618D0B9F
+Reference = COUT1;
+ValeurCmp = 330uF;
+IdModule  = Capacitor_SMD:CP_Elec_8x10;
+EndCmp
+
+BeginCmp
+TimeStamp = 618DE9A0
+Path = /618C5FEC
+Reference = CIN1;
+ValeurCmp = 220uF;
+IdModule  = Capacitor_SMD:CP_Elec_8x10;
+EndCmp
+
+BeginCmp
+TimeStamp = 618DD46A
+Path = /618DC097
+Reference = CFF1;
+ValeurCmp = 33nF;
+IdModule  = Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 618DD459
+Path = /618C7B4E
+Reference = CC1;
+ValeurCmp = 105;
+IdModule  = Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 618DD448
+Path = /618F7816
+Reference = C2;
+ValeurCmp = 105;
+IdModule  = Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 618DD437
+Path = /618C73D8
+Reference = C1;
+ValeurCmp = 105;
+IdModule  = Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder;
+EndCmp
+
+EndListe
