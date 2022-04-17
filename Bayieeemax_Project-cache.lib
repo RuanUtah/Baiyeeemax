@@ -108,20 +108,11 @@ F5 "SMD Gyroscope/Accelerometer/Magnetometer Sensor; 9-AXIS" -500 -950 50 H I L 
 F6 "The center Exposed Pad (EP), for MPU devices is a No Connect (NC) pad. To avoid package stress, do not solder the EP to the PCB. Please refer to the document “AN-IVS-0002A-00”. As a result of these guidelines, the exposed pad has not been included on the PCB footprint. We’ve added a keep-out area under the exposed pad. Please don’t route traces or vias under the part, on the same side of the board" -1950 1650 50 H I L BNN "NOTES"
 DRAW
 S -600 -700 600 800 0 0 6 f
-X RESV_1 1 800 0 200 L 40 40 0 0 P
-X REGOUT 10 800 200 200 L 40 40 0 0 O
-X FSYNC 11 -800 400 200 R 40 40 0 0 I
-X INT 12 800 400 200 L 40 40 0 0 O
 X VDD 13 800 700 200 L 40 40 0 0 W
 X GND 18 800 -600 200 L 40 40 0 0 W
-X RESV_19 19 800 -100 200 L 40 40 0 0 P
-X RESV_20 20 800 -200 200 L 40 40 0 0 P
-X AUX_DA 21 -800 -300 200 R 40 40 0 0 I
 X ~nCS 22 -800 200 200 R 40 40 0 0 I
 X SCL/SCLK 23 -800 100 200 R 40 40 0 0 I C
 X SDA/SDI 24 -800 0 200 R 40 40 0 0 B
-X AUX_CL 7 -800 -200 200 R 40 40 0 0 I C
-X VDDIO 8 800 600 200 L 40 40 0 0 W
 X AD0/SDO 9 -800 -100 200 R 40 40 0 0 O
 ENDDRAW
 ENDDEF

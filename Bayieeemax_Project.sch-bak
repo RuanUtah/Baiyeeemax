@@ -890,8 +890,6 @@ F 3 "~" H 9550 9400 50  0001 C CNN
 	1    9550 9400
 	1    0    0    -1  
 $EndComp
-NoConn ~ 6900 9850
-NoConn ~ 6900 9750
 Wire Wire Line
 	8500 8850 8600 8850
 Wire Wire Line
@@ -930,20 +928,6 @@ Wire Wire Line
 	6800 9450 6900 9450
 Text Label 6800 9450 2    50   ~ 0
 SLC_MPU9250
-$Comp
-L Bayieeemax_Project-rescue:MPU-9250 U1
-U 1 1 61C9EC7E
-P 7700 9550
-F 0 "U1" H 7700 10515 50  0000 C CNN
-F 1 "MPU-9250" H 7700 10424 50  0000 C CNN
-F 2 "Baiyeeemax:MPU-9250" H 7750 10350 50  0001 L BNN
-F 3 "" H 7800 9850 50  0001 L BNN
-F 4 "MPU-9250" H 7300 10350 50  0001 L BNN "MP"
-F 5 "SMD Gyroscope/Accelerometer/Magnetometer Sensor; 9-AXIS" H 7200 8600 50  0001 L BNN "DESCRIPTION"
-F 6 "The center Exposed Pad (EP), for MPU devices is a No Connect (NC) pad. To avoid package stress, do not solder the EP to the PCB. Please refer to the document “AN-IVS-0002A-00”. As a result of these guidelines, the exposed pad has not been included on the PCB footprint. We’ve added a keep-out area under the exposed pad. Please don’t route traces or vias under the part, on the same side of the board" H 5750 11200 50  0001 L BNN "NOTES"
-	1    7700 9550
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	13300 9550 13250 9550
 Wire Wire Line
@@ -1017,13 +1001,6 @@ Wire Wire Line
 Wire Wire Line
 	10700 5600 10750 5600
 NoConn ~ 6900 9650
-NoConn ~ 6900 9150
-NoConn ~ 8500 8950
-NoConn ~ 8500 9150
-NoConn ~ 8500 9350
-NoConn ~ 8500 9550
-NoConn ~ 8500 9650
-NoConn ~ 8500 9750
 NoConn ~ 6900 9350
 Text Label 20400 1700 2    50   ~ 0
 M0
@@ -1169,7 +1146,6 @@ Wire Wire Line
 	10700 5200 10750 5200
 NoConn ~ 9300 4900
 NoConn ~ 9300 5000
-NoConn ~ 9300 5500
 NoConn ~ 10700 6300
 NoConn ~ 10700 6400
 NoConn ~ 10700 6500
@@ -1244,7 +1220,6 @@ Wire Wire Line
 Wire Wire Line
 	10750 6000 10700 6000
 NoConn ~ 9300 5300
-NoConn ~ 9300 5400
 NoConn ~ 10750 5100
 NoConn ~ 10750 5200
 Wire Wire Line
@@ -1336,7 +1311,7 @@ U 1 1 62073BFE
 P 12050 9900
 F 0 "J17" H 12130 9942 50  0000 L CNN
 F 1 "i2C_MAX30100" H 11950 9500 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical" H 12050 9900 50  0001 C CNN
+F 2 "Baiyeeemax:MAX30100" H 12050 9900 50  0001 C CNN
 F 3 "~" H 12050 9900 50  0001 C CNN
 	1    12050 9900
 	1    0    0    -1  
@@ -1440,10 +1415,8 @@ Wire Wire Line
 Wire Wire Line
 	11800 9600 11850 9600
 Connection ~ 11800 9200
-Text Label 10950 5400 2    50   ~ 0
+Text Label 9250 5400 2    50   ~ 0
 ACS
-Wire Wire Line
-	10700 5400 10950 5400
 Text Notes 7450 11350 0    50   ~ 0
 USB_Raspbery_charge\n
 $Comp
@@ -1564,10 +1537,8 @@ Wire Wire Line
 Wire Wire Line
 	2950 2250 2950 2450
 Connection ~ 2950 2450
-Text Label 10800 5500 0    50   ~ 0
+Text Label 9250 5500 2    50   ~ 0
 AVS
-Wire Wire Line
-	10700 5500 10800 5500
 $Comp
 L Bayieeemax_Project-rescue:+16.8V #PWR0107
 U 1 1 6222FF6B
@@ -1606,4 +1577,30 @@ NoConn ~ 10700 4900
 NoConn ~ 10700 5000
 NoConn ~ 10700 6100
 NoConn ~ 10700 6200
+Text Label 10750 5500 0    50   ~ 0
+SDA_MPU9250
+Text Label 10750 5400 0    50   ~ 0
+SLC_MPU9250
+Wire Wire Line
+	9250 5500 9300 5500
+Wire Wire Line
+	9300 5400 9250 5400
+Wire Wire Line
+	10700 5400 10750 5400
+Wire Wire Line
+	10750 5500 10700 5500
+$Comp
+L Bayieeemax_Project-rescue:MPU-9250 U1
+U 1 1 61C9EC7E
+P 7700 9550
+F 0 "U1" H 7700 10515 50  0000 C CNN
+F 1 "MPU-9250" H 7700 10424 50  0000 C CNN
+F 2 "Baiyeeemax:MPU-9250" H 7750 10350 50  0001 L BNN
+F 3 "" H 7800 9850 50  0001 L BNN
+F 4 "MPU-9250" H 7300 10350 50  0001 L BNN "MP"
+F 5 "SMD Gyroscope/Accelerometer/Magnetometer Sensor; 9-AXIS" H 7200 8600 50  0001 L BNN "DESCRIPTION"
+F 6 "The center Exposed Pad (EP), for MPU devices is a No Connect (NC) pad. To avoid package stress, do not solder the EP to the PCB. Please refer to the document “AN-IVS-0002A-00”. As a result of these guidelines, the exposed pad has not been included on the PCB footprint. We’ve added a keep-out area under the exposed pad. Please don’t route traces or vias under the part, on the same side of the board" H 5750 11200 50  0001 L BNN "NOTES"
+	1    7700 9550
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -1,4 +1,4 @@
-19422043902293086
+19425347449694086
 Baiyeeemax
 BluePill_STM32F103C
 STM32F103C8 BluePill board
@@ -14,12 +14,26 @@ CAP_EEEFN1E101UP
 2
 2
 Baiyeeemax
+CP_Radial_D6.3mm_P2.50mm
+CP, Radial series, Radial, pin pitch=2.50mm, , diameter=6.3mm, Electrolytic Capacitor
+CP Radial series Radial pin pitch 2.50mm  diameter 6.3mm Electrolytic Capacitor
+0
+2
+2
+Baiyeeemax
 DCDC_stepdown_75W-XL4015
 
 
 0
 4
 1
+Baiyeeemax
+GPS VK2828
+
+
+0
+0
+0
 Baiyeeemax
 IC_DRV8825_STEPPER_MOTOR_DRIVER_CARRIER
 
@@ -32,8 +46,8 @@ MAX30100
 
 
 0
-0
-0
+7
+7
 Baiyeeemax
 MPU-9250
 
